@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frictionless Catalog Builder"
+  short_description: "Create validated Open Knowledge data packages"
+  default_prompt: "Use $catalog-builder-frictionless to create or validate a Frictionless Data Package catalog."

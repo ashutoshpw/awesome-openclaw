@@ -1,0 +1,4 @@
+interface:
+  display_name: "Catalog Markdown Publisher"
+  short_description: "Publish deterministic catalog Markdown surfaces"
+  default_prompt: "Use $catalog-builder-markdown to generate and validate readable Markdown catalog pages from structured data."

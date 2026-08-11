@@ -1,0 +1,29 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/table-schema.json",
+  "fields": [
+    { "name": "id", "type": "string", "constraints": { "required": true, "pattern": "^[a-z0-9][a-z0-9-]*$" } },
+    { "name": "name", "type": "string", "constraints": { "required": true } },
+    { "name": "kind", "type": "string", "constraints": { "required": true } },
+    { "name": "category", "type": "string", "constraints": { "required": true } },
+    { "name": "subcategory", "type": "string" },
+    { "name": "description", "type": "string", "constraints": { "required": true } },
+    { "name": "url", "type": "string", "constraints": { "required": true, "pattern": "^https://" } },
+    { "name": "officiality", "type": "string", "constraints": { "required": true, "enum": ["official", "community", "third-party"] } },
+    { "name": "pricing", "type": "string", "constraints": { "required": true, "enum": ["free", "paid", "freemium", "unknown"] } },
+    { "name": "status", "type": "string", "constraints": { "required": true, "enum": ["active", "watch", "stale", "archived", "removed"] } },
+    { "name": "verification_status", "type": "string", "constraints": { "required": true, "enum": ["verified", "needs-review", "broken", "unverified"] } },
+    { "name": "last_verified", "type": "date", "constraints": { "required": true } },
+    { "name": "repository_url", "type": "string" },
+    { "name": "docs_url", "type": "string" },
+    { "name": "license", "type": "string" },
+    { "name": "language", "type": "string" },
+    { "name": "maintainer", "type": "string" },
+    { "name": "install_method", "type": "string" },
+    { "name": "requires_credentials", "type": "boolean" },
+    { "name": "executes_code", "type": "boolean" },
+    { "name": "external_write", "type": "boolean" },
+    { "name": "risk_notes", "type": "string" },
+    { "name": "notes", "type": "string" }
+  ],
+  "missingValues": [""]
+}

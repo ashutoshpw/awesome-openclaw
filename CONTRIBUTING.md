@@ -16,27 +16,33 @@ A submission should be:
 
 The list may link to a deeper specialist directory, but it should not copy a specialist directory's full inventory.
 
-## Entry format
+## Catalog record format
 
-Use one line per entry, in alphabetical order within the relevant section:
+Add or update one record in [data/catalog.csv](data/catalog.csv). Keep `id` stable and unique, use an HTTPS canonical URL, choose controlled values for `officiality`, `pricing`, `status`, and `verification_status`, and set `last_verified` to the date of the evidence review.
 
-```markdown
-- [Project name](https://example.com) - Short, factual description of what it does and why it is useful.
+Records that execute code, require credentials, or write to external systems must set the corresponding boolean field to `true` and include a useful `risk_notes` value. Keep descriptions factual and link to public evidence. Do not copy a specialist directory's full inventory into this repository.
+
+After changing catalog data, run:
+
+```bash
+bun run catalog:check
 ```
 
-Use `🎖️` only for resources maintained by the OpenClaw project or its official organization. Use `💵` for paid services or integrations. These markers describe ownership or pricing; they do not indicate endorsement or safety.
+The README and category pages are generated; edit the CSV rather than generated Markdown. Task guides belong in `content/playbook/*.md` and must follow the frontmatter and section contract validated by the same command.
 
 ## Submission checklist
 
 - [ ] The resource has not already been listed.
 - [ ] The link is public and works.
-- [ ] The proposed section is appropriate.
+- [ ] The proposed category and kind are appropriate.
 - [ ] The description explains the practical value in one sentence.
-- [ ] The resource's maintenance or usage evidence is included in the pull request.
+- [ ] The resource's maintenance or usage evidence and `last_verified` date are included.
+- [ ] Risk flags and `risk_notes` accurately describe credentials, code execution, and external writes.
 - [ ] No credentials, tokens, private data, or unsafe copy-paste instructions are included.
+- [ ] Catalog validation and generated drift checks pass.
 - [ ] Markdown and link checks pass.
 
-Open an issue in the repository for a new category or substantial addition and select the resource request template after this change is published. Direct pull requests are welcome for corrections, removals, and broken links.
+Open an issue in the repository for a new category or substantial addition and select the resource request template after this change is published. Direct pull requests are welcome for corrections, removals, broken links, and playbook improvements.
 
 ## Safety expectations
 

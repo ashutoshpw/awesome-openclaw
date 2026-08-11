@@ -38,3 +38,18 @@ jobs:
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  catalog:
+    name: Catalog and playbook validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - name: Validate and build catalog
+        run: bun run catalog:check
+      - name: Validate repository skills
+        run: bun run skills:validate

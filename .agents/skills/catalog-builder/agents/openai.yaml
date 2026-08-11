@@ -1,0 +1,4 @@
+interface:
+  display_name: "Catalog Builder"
+  short_description: "Build and maintain verified resource catalogs"
+  default_prompt: "Use $catalog-builder to design or update a verified catalog with provenance, metadata, and validation."

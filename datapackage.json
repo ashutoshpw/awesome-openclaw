@@ -1,0 +1,42 @@
+{
+  "profile": "data-package",
+  "name": "awesome-openclaw",
+  "title": "Awesome OpenClaw Catalog",
+  "description": "A community-maintained catalog of OpenClaw resources and runnable operational playbooks.",
+  "homepage": "https://github.com/ashutoshpw/awesome-openclaw",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenClaw official documentation",
+      "path": "https://docs.openclaw.ai"
+    },
+    {
+      "title": "Existing Awesome OpenClaw curation",
+      "path": "README.md"
+    }
+  ],
+  "resources": [
+    {
+      "name": "catalog",
+      "path": "data/catalog.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "schemas/catalog.json"
+    },
+    {
+      "name": "playbook-index",
+      "path": "data/playbook.csv",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": "schemas/playbook.json"
+    }
+  ]
+}

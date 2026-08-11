@@ -1,0 +1,12 @@
+{
+  "name": "awesome-openclaw-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "catalog:build": "bun scripts/catalog/build.ts",
+    "catalog:check": "bun scripts/catalog/validate.ts && bun scripts/catalog/validate-playbooks.ts && bun scripts/catalog/build.ts --check",
+    "catalog:validate": "bun scripts/catalog/validate.ts",
+    "playbook:validate": "bun scripts/catalog/validate-playbooks.ts",
+    "skills:validate": "bun scripts/catalog/validate-skills.ts"
+  }
+}

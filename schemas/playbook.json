@@ -1,0 +1,20 @@
+{
+  "$schema": "https://specs.frictionlessdata.io/table-schema.json",
+  "fields": [
+    { "name": "id", "type": "string", "constraints": { "required": true, "pattern": "^[a-z0-9][a-z0-9-]*$" } },
+    { "name": "title", "type": "string", "constraints": { "required": true } },
+    { "name": "track", "type": "string", "constraints": { "required": true } },
+    { "name": "summary", "type": "string", "constraints": { "required": true } },
+    { "name": "audience", "type": "string" },
+    { "name": "difficulty", "type": "string", "constraints": { "required": true, "enum": ["beginner", "intermediate", "advanced"] } },
+    { "name": "status", "type": "string", "constraints": { "required": true, "enum": ["draft", "tested", "needs-review", "retired"] } },
+    { "name": "prerequisites", "type": "string" },
+    { "name": "related_catalog_ids", "type": "string" },
+    { "name": "requires_credentials", "type": "boolean" },
+    { "name": "external_write", "type": "boolean" },
+    { "name": "tested_on", "type": "string" },
+    { "name": "last_verified", "type": "date", "constraints": { "required": true } },
+    { "name": "path", "type": "string", "constraints": { "required": true, "pattern": "^content/playbook/.*\\.md$" } }
+  ],
+  "missingValues": [""]
+}
