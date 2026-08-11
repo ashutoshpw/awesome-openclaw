@@ -1,0 +1,44 @@
+name: Resource request
+description: Suggest a new resource or category for the curated list.
+title: "Add resource: "
+labels:
+  - resource-request
+body:
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      description: Provide the public URL for the project, documentation, or directory.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Proposed entry
+      description: Give a one-line factual description and explain why it belongs in this list.
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Proposed section
+      placeholder: Skills and Skill Registries
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevance and maintenance evidence
+      description: Link documentation, usage evidence, recent activity, or other public signals.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety and duplication checks
+      options:
+        - label: I reviewed the existing list and this is not a duplicate.
+          required: true
+        - label: I understand inclusion is not a security audit or endorsement.
+          required: true

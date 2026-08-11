@@ -1,0 +1,4 @@
+default: true
+
+# Directory entries contain long URLs and intentionally compact one-line descriptions.
+MD013: false

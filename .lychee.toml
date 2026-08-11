@@ -1,0 +1,7 @@
+max_retries = 2
+timeout = 20
+
+# Badge providers can rate-limit automated link checks and are not content links.
+exclude = [
+  '^https://img\.shields\.io/'
+]
