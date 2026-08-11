@@ -41,6 +41,8 @@ Primary project resources maintained by OpenClaw.
 
 - [OpenClaw showcase](https://docs.openclaw.ai/start/showcase) - Official examples showing what people are building with OpenClaw. 🎖️
 
+- [OpenClaw Windows Hub](https://github.com/openclaw/openclaw-windows-node) - Native Windows companion for setup chat gateway diagnostics and permission-scoped Windows node capabilities. 🎖️
+
 - [OpenClaw website](https://openclaw.ai) - Official project homepage and high-level product orientation. 🎖️
 
 - [ClawHub](https://clawhub.ai) - Official registry for discovering and installing OpenClaw skills. 🎖️
