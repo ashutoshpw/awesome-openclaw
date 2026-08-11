@@ -19,6 +19,12 @@ Primary project resources maintained by OpenClaw.
 - [OpenClaw showcase](https://docs.openclaw.ai/start/showcase) - Official examples showing what people are building with OpenClaw. 🎖️
   - Metadata: `example · official · free · active`; last verified 2026-08-12.
 
+## Platforms
+
+- [OpenClaw Windows Hub](https://github.com/openclaw/openclaw-windows-node) - Native Windows companion for setup chat gateway diagnostics and permission-scoped Windows node capabilities. 🎖️
+  - Metadata: `companion-app · official · free · active`; last verified 2026-08-12. [repository](https://github.com/openclaw/openclaw-windows-node)
+  - Risk: Node mode can execute commands control browsers and access camera microphone screen and location; enable only needed permissions and sandboxing.
+
 ## Project
 
 - [OpenClaw website](https://openclaw.ai) - Official project homepage and high-level product orientation. 🎖️
