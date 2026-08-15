@@ -13,6 +13,12 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `integration · community · free · active`; last verified 2026-08-12. [repository](https://github.com/tencent-connect/openclaw-qqbot)
   - Risk: Messaging credentials and outbound delivery require review.
 
+## Interfaces
+
+- [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
+  - Metadata: `integration · community · free · active`; last verified 2026-08-15. [repository](https://github.com/Eliav2/openclaw-openwebui-integration)
+  - Risk: Installer uses Open WebUI admin credentials and a Gateway token; the functions persist device identity session state and agent-emitted files in Open WebUI.
+
 ## Plugins
 
 - [OpenClaw plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) - Official guide for building plugins and extending OpenClaw. 🎖️
