@@ -105,6 +105,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [OpenClaw QQ bot](https://github.com/tencent-connect/openclaw-qqbot) - QQ channel connector for OpenClaw.
 
+- [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
+
 - [OpenClaw plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) - Official guide for building plugins and extending OpenClaw. 🎖️
 
 ## MCP
@@ -147,6 +149,8 @@ Packaging, hosting, isolation, and secure remote operations.
 
 - [Docker deployment](https://docs.openclaw.ai/install/docker) - Run OpenClaw in a containerized environment. 🎖️
 
+- [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) - Reference stack for running OpenClaw and other supported agents inside NVIDIA OpenShell sandboxes with managed inference network policy snapshots and lifecycle operations.
+
 - [Sandboxing](https://docs.openclaw.ai/gateway/sandboxing) - Configure isolation for agent tool execution. 🎖️
 
 - [Nix OpenClaw](https://github.com/openclaw/nix-openclaw) - Nix packaging and deployment support. 🎖️
@@ -169,7 +173,11 @@ Memory, session, context, and observability resources.
 
 Security policy, hardening, disclosure, and trust resources.
 
+- [SpiceClaw](https://github.com/authzed/spiceclaw) - Proof-of-concept OpenClaw plugin using SpiceDB for explicit fine-grained tool grants and time-limited human-approved elevation.
+
 - [OpenClaw security policy](https://github.com/openclaw/openclaw/blob/main/SECURITY.md) - Official vulnerability-reporting process and security boundaries. 🎖️
+
+- [DashClaw](https://github.com/ucsandman/DashClaw) - Approval and policy layer that can intercept OpenClaw tool calls before execution and route risky actions for human review.
 
 - [Secure OpenClaw](https://github.com/composio-community/secure-openclaw) - Security-focused OpenClaw deployment and hardening project.
 
