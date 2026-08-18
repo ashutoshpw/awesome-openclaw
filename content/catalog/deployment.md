@@ -17,6 +17,10 @@ Packaging, hosting, isolation, and secure remote operations.
 
 ## Isolation
 
+- [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) - Reference stack for running OpenClaw and other supported agents inside NVIDIA OpenShell sandboxes with managed inference network policy snapshots and lifecycle operations.
+  - Metadata: `deployment · third-party · free · active`; last verified 2026-08-15. [repository](https://github.com/NVIDIA/NemoClaw)
+  - Risk: Installer manages agent sandboxes inference credentials network policy integrations and host runtime state; review prerequisites security guidance and alpha limitations.
+
 - [Sandboxing](https://docs.openclaw.ai/gateway/sandboxing) - Configure isolation for agent tool execution. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Sandbox configuration controls code and filesystem boundaries.

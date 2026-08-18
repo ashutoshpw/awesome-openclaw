@@ -3,10 +3,22 @@
 
 Security policy, hardening, disclosure, and trust resources.
 
+## Authorization
+
+- [SpiceClaw](https://github.com/authzed/spiceclaw) - Proof-of-concept OpenClaw plugin using SpiceDB for explicit fine-grained tool grants and time-limited human-approved elevation.
+  - Metadata: `security-tool · third-party · free · watch`; last verified 2026-08-15. [repository](https://github.com/authzed/spiceclaw)
+  - Risk: Installation changes OpenClaw configuration systemd services local users Docker state and authorization grants; experimental Linux-only code requires review before production use.
+
 ## Disclosure
 
 - [OpenClaw security policy](https://github.com/openclaw/openclaw/blob/main/SECURITY.md) - Official vulnerability-reporting process and security boundaries. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12. [repository](https://github.com/openclaw/openclaw)
+
+## Governance
+
+- [DashClaw](https://github.com/ucsandman/DashClaw) - Approval and policy layer that can intercept OpenClaw tool calls before execution and route risky actions for human review.
+  - Metadata: `security-tool · community · freemium · active`; last verified 2026-08-15. [repository](https://github.com/ucsandman/DashClaw)
+  - Risk: Gateway plugin can block or release tool execution and records policies approvals and audit data; enforcement shares the agent privilege boundary unless separately isolated.
 
 ## Hardening
 
