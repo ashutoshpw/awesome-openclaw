@@ -16,6 +16,17 @@ function fail(message: string): never {
   throw new Error(message);
 }
 
+function normalizeName(value: string): string {
+  return value.trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+function normalizeUrl(value: string): string {
+  const url = new URL(value.trim());
+  const pathname = url.pathname === "/" ? "" : url.pathname.replace(/\/+$/, "");
+  const query = url.search ? url.search : "";
+  return `${url.origin.toLowerCase()}${pathname}${query}`;
+}
+
 const records = readCsv("data/catalog.csv");
 const ids = new Set<string>();
 const urls = new Set<string>();
@@ -39,6 +50,44 @@ for (const record of records) {
   }
   for (const field of ["repository_url", "docs_url"]) {
     if (record[field] && !/^https:\/\//.test(record[field])) fail(`${record.id}.${field} must use https`);
+  }
+}
+
+const baseRef = process.env.GITHUB_BASE_REF;
+if (baseRef) {
+  const command = Bun.spawnSync({
+    cmd: ["git", "show", `origin/${baseRef}:data/catalog.csv`],
+    cwd: ROOT,
+    stdout: "pipe",
+    stderr: "pipe",
+  });
+  if (command.exitCode !== 0) {
+    fail(`failed to read base catalog from origin/${baseRef}; ensure CI checkout fetch-depth includes base branch history`);
+  }
+  const baseRows = parseCsv(new TextDecoder().decode(command.stdout));
+  const baseHeaders = baseRows[0] ?? [];
+  const baseRecords = baseRows.slice(1).map((values) => Object.fromEntries(baseHeaders.map((header, index) => [header, values[index] ?? ""])));
+  const baseIds = new Set(baseRecords.map((record) => record.id));
+  const newRecords = records.filter((record) => !baseIds.has(record.id));
+  const currentNameOwners = new Map<string, string[]>();
+  const currentUrlOwners = new Map<string, string[]>();
+
+  for (const record of records) {
+    const normalizedName = normalizeName(record.name);
+    const normalizedUrl = normalizeUrl(record.url);
+    currentNameOwners.set(normalizedName, [...(currentNameOwners.get(normalizedName) ?? []), record.id]);
+    currentUrlOwners.set(normalizedUrl, [...(currentUrlOwners.get(normalizedUrl) ?? []), record.id]);
+  }
+
+  for (const record of newRecords) {
+    const duplicateNameIds = (currentNameOwners.get(normalizeName(record.name)) ?? []).filter((id) => id !== record.id);
+    if (duplicateNameIds.length > 0) {
+      fail(`${record.id} duplicates an existing platform name (${record.name}) already listed as ${duplicateNameIds.join(", ")}`);
+    }
+    const duplicateUrlIds = (currentUrlOwners.get(normalizeUrl(record.url)) ?? []).filter((id) => id !== record.id);
+    if (duplicateUrlIds.length > 0) {
+      fail(`${record.id} duplicates an existing url (${record.url}) already listed as ${duplicateUrlIds.join(", ")}`);
+    }
   }
 }
 
