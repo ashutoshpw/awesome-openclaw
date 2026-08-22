@@ -105,9 +105,13 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [OpenClaw QQ bot](https://github.com/tencent-connect/openclaw-qqbot) - QQ channel connector for OpenClaw.
 
+- [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
+
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
 
 - [OpenClaw plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) - Official guide for building plugins and extending OpenClaw. 🎖️
+
+- [Apple PIM](https://github.com/omarshahine/apple-pim) - macOS OpenClaw plugin for reading and changing Calendar Reminders Contacts and Mail through native Swift tools with per-domain and per-profile access controls.
 
 ## MCP
 
@@ -161,6 +165,10 @@ Packaging, hosting, isolation, and secure remote operations.
 
 Memory, session, context, and observability resources.
 
+- [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw) - Context-engine plugin that preserves OpenClaw transcripts in a SQLite-backed summary DAG and exposes tools for searching and expanding compacted history.
+
+- [GBrain](https://github.com/garrytan/gbrain) - Self-hosted knowledge and memory layer with an OpenClaw context engine MCP server curated skills hybrid retrieval graph traversal and cited synthesis.
+
 - [Sessions and observability](https://docs.openclaw.ai/concepts/session) - Understand sessions transcripts routing and operational context. 🎖️
 
 - [ClawDeck](https://github.com/clawdeckio/clawdeck) - Mission-control dashboard for managing OpenClaw agents.
@@ -168,6 +176,8 @@ Memory, session, context, and observability resources.
 - [Mem0 OpenClaw integration](https://docs.mem0.ai/integrations/openclaw) - Persistent memory integration for OpenClaw. 💵
 
 - [Memory documentation](https://docs.openclaw.ai/concepts/memory) - Official memory context and persistence guidance. 🎖️
+
+- [mem9](https://mem9.ai/openclaw-memory/) - Server-backed OpenClaw memory plugin for persistent recall across sessions machines and agents with hybrid search and a review dashboard.
 
 ## Security
 
