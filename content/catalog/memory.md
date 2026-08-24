@@ -3,6 +3,18 @@
 
 Memory, session, context, and observability resources.
 
+## Context Management
+
+- [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw) - Context-engine plugin that preserves OpenClaw transcripts in a SQLite-backed summary DAG and exposes tools for searching and expanding compacted history.
+  - Metadata: `context-engine · community · free · active`; last verified 2026-08-22. [repository](https://github.com/Martian-Engineering/lossless-claw)
+  - Risk: The plugin replaces the context engine and stores full transcript history locally while using the configured model provider for summaries; databases and backups can contain sensitive content.
+
+## Knowledge Graph
+
+- [GBrain](https://github.com/garrytan/gbrain) - Self-hosted knowledge and memory layer with an OpenClaw context engine MCP server curated skills hybrid retrieval graph traversal and cited synthesis.
+  - Metadata: `knowledge-system · community · free · active`; last verified 2026-08-22. [repository](https://github.com/garrytan/gbrain)
+  - Risk: GBrain can ingest private sources run a persistent daemon and skills and write durable knowledge; database model-provider and source credentials need isolation and least privilege.
+
 ## Observability
 
 - [Sessions and observability](https://docs.openclaw.ai/concepts/session) - Understand sessions transcripts routing and operational context. 🎖️
@@ -24,5 +36,11 @@ Memory, session, context, and observability resources.
 - [Memory documentation](https://docs.openclaw.ai/concepts/memory) - Official memory context and persistence guidance. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Stored memory can contain sensitive data and influence future actions.
+
+## Shared Memory
+
+- [mem9](https://mem9.ai/openclaw-memory/) - Server-backed OpenClaw memory plugin for persistent recall across sessions machines and agents with hybrid search and a review dashboard.
+  - Metadata: `memory-service · third-party · freemium · active`; last verified 2026-08-22. [repository](https://github.com/mem9-ai/mem9)
+  - Risk: The plugin uploads recalled and captured conversation memory to the configured mem9 server; its API key grants read and write access to the shared memory space and self-hosting adds database credentials.
 
 [Back to catalog index](index.md)

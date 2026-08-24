@@ -13,6 +13,12 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `integration · community · free · active`; last verified 2026-08-12. [repository](https://github.com/tencent-connect/openclaw-qqbot)
   - Risk: Messaging credentials and outbound delivery require review.
 
+## Hardware
+
+- [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
+  - Metadata: `companion-device · official · free · active`; last verified 2026-08-22. [repository](https://github.com/openclaw/esp-openclaw-node)
+  - Risk: Pairing credentials and Wi-Fi state are stored on the device; node commands can affect attached hardware and room-node file and media surfaces.
+
 ## Interfaces
 
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
@@ -24,5 +30,11 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [OpenClaw plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) - Official guide for building plugins and extending OpenClaw. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Plugin code runs with the permissions granted by its host.
+
+## Productivity
+
+- [Apple PIM](https://github.com/omarshahine/apple-pim) - macOS OpenClaw plugin for reading and changing Calendar Reminders Contacts and Mail through native Swift tools with per-domain and per-profile access controls.
+  - Metadata: `integration · community · free · active`; last verified 2026-08-22. [repository](https://github.com/omarshahine/apple-pim)
+  - Risk: macOS permissions can expose calendars reminders contacts and Mail plus optional Full Disk Access; the plugin can create update delete and send data so use restrictive profiles and egress allowlists.
 
 [Back to catalog index](index.md)
