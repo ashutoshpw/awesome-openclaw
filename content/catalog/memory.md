@@ -17,6 +17,14 @@ Memory, session, context, and observability resources.
 
 ## Observability
 
+- [Opik for OpenClaw](https://github.com/comet-ml/opik-openclaw) - Native OpenClaw plugin that exports LLM subagent and tool-call traces with usage cost error and run metadata to an Opik project.
+  - Metadata: `observability-plugin · third-party · freemium · active`; last verified 2026-08-29. [repository](https://github.com/comet-ml/opik-openclaw)
+  - Risk: The Gateway plugin can transmit prompts responses tool inputs outputs errors and attachments to the configured Opik service; scope its API key and review conversation-hook access retention and self-hosted or cloud data boundaries.
+
+- [PostHog LLM Analytics for OpenClaw](https://github.com/PostHog/posthog-openclaw) - Vendor-maintained OpenClaw plugin that records generations tool spans traces token usage latency cost and errors in PostHog LLM Analytics.
+  - Metadata: `observability-plugin · third-party · freemium · active`; last verified 2026-08-29. [repository](https://github.com/PostHog/posthog-openclaw)
+  - Risk: The plugin sends prompts responses tool parameters results session identifiers and channel metadata to PostHog by default; enable privacyMode when content capture is unnecessary and protect the project API key.
+
 - [Sessions and observability](https://docs.openclaw.ai/concepts/session) - Understand sessions transcripts routing and operational context. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Transcripts and logs may contain credentials or private content.

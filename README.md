@@ -149,6 +149,8 @@ Runnable examples and practical patterns for applying OpenClaw.
 
 Packaging, hosting, isolation, and secure remote operations.
 
+- [OpenClaw on AWS with Bedrock](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock) - AWS sample CloudFormation deployment for running OpenClaw on EC2 with Amazon Bedrock IAM authentication SSM access monitoring and optional public ingress. 💵
+
 - [OpenClaw Ansible](https://github.com/openclaw/openclaw-ansible) - Ansible-based deployment support. 🎖️
 
 - [Docker deployment](https://docs.openclaw.ai/install/docker) - Run OpenClaw in a containerized environment. 🎖️
@@ -168,6 +170,10 @@ Memory, session, context, and observability resources.
 - [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw) - Context-engine plugin that preserves OpenClaw transcripts in a SQLite-backed summary DAG and exposes tools for searching and expanding compacted history.
 
 - [GBrain](https://github.com/garrytan/gbrain) - Self-hosted knowledge and memory layer with an OpenClaw context engine MCP server curated skills hybrid retrieval graph traversal and cited synthesis.
+
+- [Opik for OpenClaw](https://github.com/comet-ml/opik-openclaw) - Native OpenClaw plugin that exports LLM subagent and tool-call traces with usage cost error and run metadata to an Opik project.
+
+- [PostHog LLM Analytics for OpenClaw](https://github.com/PostHog/posthog-openclaw) - Vendor-maintained OpenClaw plugin that records generations tool spans traces token usage latency cost and errors in PostHog LLM Analytics.
 
 - [Sessions and observability](https://docs.openclaw.ai/concepts/session) - Understand sessions transcripts routing and operational context. 🎖️
 
@@ -194,6 +200,8 @@ Security policy, hardening, disclosure, and trust resources.
 - [Security guide](https://docs.openclaw.ai/gateway/security) - Understand pairing authentication exposure permissions and the trusted-operator model. 🎖️
 
 - [Security practice guide](https://github.com/slowmist/openclaw-security-practice-guide) - Security guidance for deploying and operating OpenClaw.
+
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security layer that inventories OpenClaw configuration channels skills and MCP servers and evaluates managed MCP package actions against policy with approvals and receipts.
 
 - [OpenClaw trust page](https://trust.openclaw.ai) - Official trust security and responsible-disclosure information. 🎖️
 
