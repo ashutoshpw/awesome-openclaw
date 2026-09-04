@@ -123,6 +123,8 @@ Model Context Protocol servers and adapters that can complement agent workflows.
 
 - [OpenClaw MCP server](https://github.com/Helms-AI/openclaw-mcp-server) - MCP server for interacting with an OpenClaw Gateway.
 
+- [Worklittle Jobs MCP](https://mcp.worklittle.com/) - Search over 4 million jobs with visa salary and distance filters swipe to apply in your AI app and save roles to a Worklittle account.
+
 ## Agents
 
 Agent orchestration, personas, and workspace customization.
