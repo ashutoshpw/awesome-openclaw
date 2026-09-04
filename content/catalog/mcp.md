@@ -19,7 +19,7 @@ Model Context Protocol servers and adapters that can complement agent workflows.
   - Metadata: `mcp-server · third-party · free · active`; last verified 2026-08-12. [repository](https://github.com/Helms-AI/openclaw-mcp-server)
   - Risk: Gateway access and MCP clients must be scoped and authenticated.
 
-- [Worklittle Jobs MCP](https://mcp.worklittle.com/) - Search over 4 million jobs with visa salary and distance filters swipe to apply in your AI app and save roles to a Worklittle account.
+- [Worklittle Jobs MCP](https://mcp.worklittle.com/) - Search over 4 million jobs with visa salary and distance filters for Claude Cursor ChatGPT OpenClaw and Hermes swipe to apply in your AI app and save roles to a Worklittle account.
   - Metadata: `mcp-server · third-party · free · active`; last verified 2026-09-04. [repository](https://github.com/worklittle/jobs-mcp)
   - Risk: Remote job search and saved applications share personal profile data and account access; review permissions before saving roles.
 
