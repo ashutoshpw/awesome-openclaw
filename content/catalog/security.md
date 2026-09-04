@@ -33,6 +33,12 @@ Security policy, hardening, disclosure, and trust resources.
   - Metadata: `guide · community · free · active`; last verified 2026-08-12. [repository](https://github.com/slowmist/openclaw-security-practice-guide)
   - Risk: Apply recommendations against the current OpenClaw configuration.
 
+## Runtime Protection
+
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security layer that inventories OpenClaw configuration channels skills and MCP servers and evaluates managed MCP package actions against policy with approvals and receipts.
+  - Metadata: `security-tool · third-party · freemium · active`; last verified 2026-08-29. [repository](https://github.com/hashgraph-online/hol-guard)
+  - Risk: Installation adds a Guard-managed launch overlay approval service policy state and optional cloud sync; OpenClaw support is limited to MCP-tool enforcement and host decisions rather than pre-execution shell or file interception and Guard is not a sandbox.
+
 ## Trust
 
 - [OpenClaw trust page](https://trust.openclaw.ai) - Official trust security and responsible-disclosure information. 🎖️
