@@ -8,7 +8,7 @@ Structured catalog records are stored in [data/catalog.csv](../../data/catalog.c
 - [Directories](./directories.md) - 8 records. Deeper community-maintained catalogs for focused discovery.
 - [Skills](./skills.md) - 3 records. Skill registries and guidance for extending OpenClaw capabilities.
 - [Integrations](./integrations.md) - 6 records. Plugins, channels, and integrations that connect OpenClaw to other systems.
-- [MCP](./mcp.md) - 3 records. Model Context Protocol servers and adapters that can complement agent workflows.
+- [MCP](./mcp.md) - 4 records. Model Context Protocol servers and adapters that can complement agent workflows.
 - [Agents](./agents.md) - 3 records. Agent orchestration, personas, and workspace customization.
 - [Use Cases](./use-cases.md) - 4 records. Runnable examples and practical patterns for applying OpenClaw.
 - [Deployment](./deployment.md) - 7 records. Packaging, hosting, isolation, and secure remote operations.
