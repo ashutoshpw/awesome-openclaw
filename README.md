@@ -93,6 +93,8 @@ Skill registries and guidance for extending OpenClaw capabilities.
 
 - [Tools and skills](https://docs.openclaw.ai/tools) - Learn how OpenClaw exposes tools and loads skills. 🎖️
 
+- [OpenClaw Agent Skills](https://github.com/openclaw/agent-skills) - Official version-controlled collection of reusable review validation transcript and contributor workflows for agents working on OpenClaw projects. 🎖️
+
 - [ClawHub skills](https://clawhub.ai/skills) - Browse published community skills and inspect their metadata before installation.
 
 - [ClawHub source](https://github.com/openclaw/clawhub) - CLI and registry source for searching inspecting and installing skills. 🎖️
@@ -101,11 +103,19 @@ Skill registries and guidance for extending OpenClaw capabilities.
 
 Plugins, channels, and integrations that connect OpenClaw to other systems.
 
+- [Apify for OpenClaw](https://github.com/apify/apify-openclaw-plugin) - Vendor-maintained plugin that lets OpenClaw discover and run Apify Actors and collect resulting datasets.
+
+- [DingTalk OpenClaw Connector](https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector) - Vendor-maintained channel plugin for OpenClaw messaging documents tasks sheets calendars reports and multi-agent routing in DingTalk.
+
 - [Feishu OpenClaw](https://github.com/AlexAnys/feishu-openclaw) - Feishu and Lark channel and integration plugin.
 
 - [OpenClaw QQ bot](https://github.com/tencent-connect/openclaw-qqbot) - QQ channel connector for OpenClaw.
 
+- [WeChat for OpenClaw](https://github.com/Tencent/openclaw-weixin) - Tencent-maintained channel plugin that connects personal WeChat accounts to OpenClaw through QR authorization with media and multi-account support.
+
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
+
+- [ClawX](https://github.com/ValueCell-ai/ClawX) - Cross-platform Electron desktop interface that bundles OpenClaw with guided provider setup chat agent channel schedule and skill management.
 
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
 
@@ -202,6 +212,8 @@ Security policy, hardening, disclosure, and trust resources.
 - [Security guide](https://docs.openclaw.ai/gateway/security) - Understand pairing authentication exposure permissions and the trusted-operator model. 🎖️
 
 - [Security practice guide](https://github.com/slowmist/openclaw-security-practice-guide) - Security guidance for deploying and operating OpenClaw.
+
+- [ClawSec](https://github.com/prompt-security/clawsec) - Security skill suite with signed advisory intelligence guarded installation checks configuration-drift detection and OpenClaw environment audits.
 
 - [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security layer that inventories OpenClaw configuration channels skills and MCP servers and evaluates managed MCP package actions against policy with approvals and receipts.
 

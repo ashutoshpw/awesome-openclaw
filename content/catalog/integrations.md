@@ -3,7 +3,17 @@
 
 Plugins, channels, and integrations that connect OpenClaw to other systems.
 
+## Automation
+
+- [Apify for OpenClaw](https://github.com/apify/apify-openclaw-plugin) - Vendor-maintained plugin that lets OpenClaw discover and run Apify Actors and collect resulting datasets.
+  - Metadata: `integration · third-party · freemium · active`; last verified 2026-09-05. [repository](https://github.com/apify/apify-openclaw-plugin)
+  - Risk: The API token grants Apify platform access and Actor runs can incur charges execute third-party automation and return untrusted scraped data; restrict tools and review Actor inputs.
+
 ## Channels
+
+- [DingTalk OpenClaw Connector](https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector) - Vendor-maintained channel plugin for OpenClaw messaging documents tasks sheets calendars reports and multi-agent routing in DingTalk.
+  - Metadata: `integration · third-party · free · active`; last verified 2026-09-05. [repository](https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector)
+  - Risk: DingTalk authorization lets OpenClaw act within the granted user scope and can expose or modify messages documents sheets calendars tasks and reports; retain default restrictions and use least privilege.
 
 - [Feishu OpenClaw](https://github.com/AlexAnys/feishu-openclaw) - Feishu and Lark channel and integration plugin.
   - Metadata: `integration · community · free · active`; last verified 2026-08-12. [repository](https://github.com/AlexAnys/feishu-openclaw)
@@ -13,6 +23,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `integration · community · free · active`; last verified 2026-08-12. [repository](https://github.com/tencent-connect/openclaw-qqbot)
   - Risk: Messaging credentials and outbound delivery require review.
 
+- [WeChat for OpenClaw](https://github.com/Tencent/openclaw-weixin) - Tencent-maintained channel plugin that connects personal WeChat accounts to OpenClaw through QR authorization with media and multi-account support.
+  - Metadata: `integration · third-party · free · active`; last verified 2026-09-05. [repository](https://github.com/Tencent/openclaw-weixin)
+  - Risk: QR authorization stores reusable login credentials locally and the plugin can receive and send messages media and typing state through Tencent services; isolate accounts and sessions and protect tokens.
+
 ## Hardware
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
@@ -20,6 +34,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Risk: Pairing credentials and Wi-Fi state are stored on the device; node commands can affect attached hardware and room-node file and media surfaces.
 
 ## Interfaces
+
+- [ClawX](https://github.com/ValueCell-ai/ClawX) - Cross-platform Electron desktop interface that bundles OpenClaw with guided provider setup chat agent channel schedule and skill management.
+  - Metadata: `companion-app · community · freemium · active`; last verified 2026-09-05. [repository](https://github.com/ValueCell-ai/ClawX)
+  - Risk: The desktop app stores provider credentials manages OpenClaw configuration and Gateway processes installs skills and plugins runs schedules and can trigger external channel actions; verify release provenance and review enabled capabilities.
 
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
   - Metadata: `integration · community · free · active`; last verified 2026-08-15. [repository](https://github.com/Eliav2/openclaw-openwebui-integration)

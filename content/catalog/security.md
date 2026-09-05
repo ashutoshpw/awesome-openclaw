@@ -35,6 +35,10 @@ Security policy, hardening, disclosure, and trust resources.
 
 ## Runtime Protection
 
+- [ClawSec](https://github.com/prompt-security/clawsec) - Security skill suite with signed advisory intelligence guarded installation checks configuration-drift detection and OpenClaw environment audits.
+  - Metadata: `security-tool · third-party · free · active`; last verified 2026-09-05. [repository](https://github.com/prompt-security/clawsec)
+  - Risk: Setup scripts can install persistent hooks cron workflows and integrity baselines and may change OpenClaw configuration; review preflight and remediation actions and note that the suite recommends and gates actions rather than sandboxing execution.
+
 - [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security layer that inventories OpenClaw configuration channels skills and MCP servers and evaluates managed MCP package actions against policy with approvals and receipts.
   - Metadata: `security-tool · third-party · freemium · active`; last verified 2026-08-29. [repository](https://github.com/hashgraph-online/hol-guard)
   - Risk: Installation adds a Guard-managed launch overlay approval service policy state and optional cloud sync; OpenClaw support is limited to MCP-tool enforcement and host decisions rather than pre-execution shell or file interception and Guard is not a sandbox.
