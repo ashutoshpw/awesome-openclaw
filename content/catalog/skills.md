@@ -9,6 +9,12 @@ Skill registries and guidance for extending OpenClaw capabilities.
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Tools and skills can access credentials and external systems.
 
+## Development
+
+- [OpenClaw Agent Skills](https://github.com/openclaw/agent-skills) - Official version-controlled collection of reusable review validation transcript and contributor workflows for agents working on OpenClaw projects. 🎖️
+  - Metadata: `skill-collection · official · free · active`; last verified 2026-09-05. [repository](https://github.com/openclaw/agent-skills)
+  - Risk: The installer writes or symlinks agent skill directories and individual workflows can inspect repositories and session exports while Beam can publish redacted coding sessions; audit and install only required skills.
+
 ## Registry
 
 - [ClawHub skills](https://clawhub.ai/skills) - Browse published community skills and inspect their metadata before installation.
