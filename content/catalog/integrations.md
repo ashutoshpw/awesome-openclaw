@@ -35,6 +35,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 ## Interfaces
 
+- [Clawdi](https://github.com/Clawdi-AI/clawdi) - Open-source control plane for hosted or connected OpenClaw agents with sessions memory projects skills vaults channels and model access.
+  - Metadata: `companion-platform · third-party · freemium · active`; last verified 2026-09-12. [repository](https://github.com/Clawdi-AI/clawdi)
+  - Risk: Connected and hosted modes can sync conversations memory projects and credentials to Clawdi and can change local agent resources or trigger channel and managed-runtime actions; review sharing retention vault and billing boundaries.
+
 - [ClawX](https://github.com/ValueCell-ai/ClawX) - Cross-platform Electron desktop interface that bundles OpenClaw with guided provider setup chat agent channel schedule and skill management.
   - Metadata: `companion-app · community · freemium · active`; last verified 2026-09-05. [repository](https://github.com/ValueCell-ai/ClawX)
   - Risk: The desktop app stores provider credentials manages OpenClaw configuration and Gateway processes installs skills and plugins runs schedules and can trigger external channel actions; verify release provenance and review enabled capabilities.
@@ -44,6 +48,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Risk: Installer uses Open WebUI admin credentials and a Gateway token; the functions persist device identity session state and agent-emitted files in Open WebUI.
 
 ## Plugins
+
+- [OpenClaw Kitchen Sink](https://github.com/openclaw/kitchen-sink) - Official credential-free plugin fixture and readable boilerplate covering the public OpenClaw plugin API surface. 🎖️
+  - Metadata: `plugin-fixture · official · free · active`; last verified 2026-09-12. [repository](https://github.com/openclaw/kitchen-sink)
+  - Risk: The full fixture intentionally exercises a broad plugin surface and the adversarial personality registers invalid probes; use the conformance personality for clean checks and keep it in development environments.
 
 - [OpenClaw plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) - Official guide for building plugins and extending OpenClaw. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.

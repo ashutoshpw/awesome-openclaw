@@ -41,6 +41,8 @@ Primary project resources maintained by OpenClaw.
 
 - [OpenClaw showcase](https://docs.openclaw.ai/start/showcase) - Official examples showing what people are building with OpenClaw. 🎖️
 
+- [OpenClaw Model Catalog](https://catalog.openclaw.ai/models/v1/catalog.json) - Official machine-readable catalog that keeps installed OpenClaw clients current with supported model metadata and pricing overlays. 🎖️
+
 - [OpenClaw Windows Hub](https://github.com/openclaw/openclaw-windows-node) - Native Windows companion for setup chat gateway diagnostics and permission-scoped Windows node capabilities. 🎖️
 
 - [OpenClaw website](https://openclaw.ai) - Official project homepage and high-level product orientation. 🎖️
@@ -58,6 +60,8 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 - [Architecture](https://docs.openclaw.ai/concepts/architecture) - Overview of the Gateway agents sessions tools channels and workspace model. 🎖️
 
 - [Configuration](https://docs.openclaw.ai/gateway/configuration) - Configure models channels tools agents and Gateway behavior. 🎖️
+
+- [Crabbox](https://github.com/openclaw/crabbox) - Official CLI and optional coordinator for syncing an OpenClaw working tree to local cloud or delegated runners and executing auditable development workflows. 🎖️
 
 - [Plugins](https://docs.openclaw.ai/plugins) - Extend OpenClaw with installable plugins and plugin-provided capabilities. 🎖️
 
@@ -115,9 +119,13 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
 
+- [Clawdi](https://github.com/Clawdi-AI/clawdi) - Open-source control plane for hosted or connected OpenClaw agents with sessions memory projects skills vaults channels and model access.
+
 - [ClawX](https://github.com/ValueCell-ai/ClawX) - Cross-platform Electron desktop interface that bundles OpenClaw with guided provider setup chat agent channel schedule and skill management.
 
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
+
+- [OpenClaw Kitchen Sink](https://github.com/openclaw/kitchen-sink) - Official credential-free plugin fixture and readable boilerplate covering the public OpenClaw plugin API surface. 🎖️
 
 - [OpenClaw plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) - Official guide for building plugins and extending OpenClaw. 🎖️
 
@@ -171,6 +179,8 @@ Packaging, hosting, isolation, and secure remote operations.
 
 - [Sandboxing](https://docs.openclaw.ai/gateway/sandboxing) - Configure isolation for agent tool execution. 🎖️
 
+- [HelmForge OpenClaw chart](https://github.com/helmforgedev/charts/tree/main/charts/openclaw) - Helm chart for a persistent authenticated OpenClaw Gateway with restrictive defaults backups observability and recovery support.
+
 - [Nix OpenClaw](https://github.com/openclaw/nix-openclaw) - Nix packaging and deployment support. 🎖️
 
 - [Self-hosting security](https://docs.openclaw.ai/gateway/security/exposure-runbook) - Runbook for safely exposing or remotely operating a Gateway. 🎖️
@@ -196,6 +206,8 @@ Memory, session, context, and observability resources.
 - [Memory documentation](https://docs.openclaw.ai/concepts/memory) - Official memory context and persistence guidance. 🎖️
 
 - [mem9](https://mem9.ai/openclaw-memory/) - Server-backed OpenClaw memory plugin for persistent recall across sessions machines and agents with hybrid search and a review dashboard.
+
+- [Supermemory for OpenClaw](https://github.com/supermemoryai/openclaw-supermemory) - Cloud-backed plugin that automatically recalls captures and profiles long-term OpenClaw conversation memory. 💵
 
 ## Security
 

@@ -31,6 +31,12 @@ Packaging, hosting, isolation, and secure remote operations.
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Sandbox configuration controls code and filesystem boundaries.
 
+## Orchestration
+
+- [HelmForge OpenClaw chart](https://github.com/helmforgedev/charts/tree/main/charts/openclaw) - Helm chart for a persistent authenticated OpenClaw Gateway with restrictive defaults backups observability and recovery support.
+  - Metadata: `deployment · third-party · free · watch`; last verified 2026-09-12. [repository](https://github.com/helmforgedev/charts)
+  - Risk: The chart creates Kubernetes workloads secrets storage networking ingress and optional S3 backups; it is a new single-writer release without HA or tenant isolation and provider infrastructure costs still apply.
+
 ## Packaging
 
 - [Nix OpenClaw](https://github.com/openclaw/nix-openclaw) - Nix packaging and deployment support. 🎖️
