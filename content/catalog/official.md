@@ -19,6 +19,11 @@ Primary project resources maintained by OpenClaw.
 - [OpenClaw showcase](https://docs.openclaw.ai/start/showcase) - Official examples showing what people are building with OpenClaw. 🎖️
   - Metadata: `example · official · free · active`; last verified 2026-08-12.
 
+## Models
+
+- [OpenClaw Model Catalog](https://catalog.openclaw.ai/models/v1/catalog.json) - Official machine-readable catalog that keeps installed OpenClaw clients current with supported model metadata and pricing overlays. 🎖️
+  - Metadata: `model-catalog · official · free · active`; last verified 2026-09-12. [repository](https://github.com/openclaw/catalog)
+
 ## Platforms
 
 - [OpenClaw Windows Hub](https://github.com/openclaw/openclaw-windows-node) - Native Windows companion for setup chat gateway diagnostics and permission-scoped Windows node capabilities. 🎖️

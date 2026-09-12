@@ -26,6 +26,12 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Configuration can grant tool access and credentials.
 
+## Development
+
+- [Crabbox](https://github.com/openclaw/crabbox) - Official CLI and optional coordinator for syncing an OpenClaw working tree to local cloud or delegated runners and executing auditable development workflows. 🎖️
+  - Metadata: `developer-tool · official · free · active`; last verified 2026-09-12. [repository](https://github.com/openclaw/crabbox)
+  - Risk: Repository configuration can run commands sync source and selected environment values and create billable remote resources; use trusted projects and review provider-specific open issues before unattended use.
+
 ## Extensions
 
 - [Plugins](https://docs.openclaw.ai/plugins) - Extend OpenClaw with installable plugins and plugin-provided capabilities. 🎖️

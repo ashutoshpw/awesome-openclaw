@@ -51,4 +51,8 @@ Memory, session, context, and observability resources.
   - Metadata: `memory-service · third-party · freemium · active`; last verified 2026-08-22. [repository](https://github.com/mem9-ai/mem9)
   - Risk: The plugin uploads recalled and captured conversation memory to the configured mem9 server; its API key grants read and write access to the shared memory space and self-hosting adds database credentials.
 
+- [Supermemory for OpenClaw](https://github.com/supermemoryai/openclaw-supermemory) - Cloud-backed plugin that automatically recalls captures and profiles long-term OpenClaw conversation memory. 💵
+  - Metadata: `memory-plugin · third-party · paid · watch`; last verified 2026-09-12. [repository](https://github.com/supermemoryai/openclaw-supermemory)
+  - Risk: Auto-capture uploads conversations after every turn and auto-recall injects cloud results into prompts using conversation-access and prompt-injection hooks; protect the API key and note the open capture-time chronology fix.
+
 [Back to catalog index](index.md)
