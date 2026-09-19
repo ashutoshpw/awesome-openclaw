@@ -14,6 +14,12 @@ Security policy, hardening, disclosure, and trust resources.
 - [OpenClaw security policy](https://github.com/openclaw/openclaw/blob/main/SECURITY.md) - Official vulnerability-reporting process and security boundaries. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12. [repository](https://github.com/openclaw/openclaw)
 
+## Extensions
+
+- [OpenClaw Plugin Inspector](https://github.com/openclaw/plugin-inspector) - Official compatibility checker that audits OpenClaw plugin metadata imports lifecycle hooks commands routes and runtime contracts with machine-readable reports. 🎖️
+  - Metadata: `developer-tool · official · free · active`; last verified 2026-09-19. [repository](https://github.com/openclaw/plugin-inspector)
+  - Risk: Static inspection is offline by default but opt-in runtime capture imports plugin code and the init command writes project configuration and CI files; run untrusted targets in an isolated checkout.
+
 ## Governance
 
 - [DashClaw](https://github.com/ucsandman/DashClaw) - Approval and policy layer that can intercept OpenClaw tool calls before execution and route risky actions for human review.
@@ -21,6 +27,10 @@ Security policy, hardening, disclosure, and trust resources.
   - Risk: Gateway plugin can block or release tool execution and records policies approvals and audit data; enforcement shares the agent privilege boundary unless separately isolated.
 
 ## Hardening
+
+- [ClawScan](https://github.com/openclaw/clawscan) - Official composable scanner harness that runs static and third-party checks on OpenClaw skills and plugins and feeds policy decisions into installation flows. 🎖️
+  - Metadata: `security-tool · official · free · active`; last verified 2026-09-19. [repository](https://github.com/openclaw/clawscan)
+  - Risk: Scanner suites can install or execute third-party analyzers and optional LLM judges with API keys; sandbox untrusted targets and review scanner provenance findings false positives and policy effects before blocking or allowing installation.
 
 - [Secure OpenClaw](https://github.com/composio-community/secure-openclaw) - Security-focused OpenClaw deployment and hardening project.
   - Metadata: `deployment · community · free · active`; last verified 2026-08-12. [repository](https://github.com/composio-community/secure-openclaw)

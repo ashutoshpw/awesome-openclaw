@@ -20,6 +20,10 @@ Deeper community-maintained catalogs for focused discovery.
   - Metadata: `directory · community · free · active`; last verified 2026-08-12. [repository](https://github.com/xianyu110/awesome-openclaw-tutorial)
   - Risk: Follow commands only after reviewing their permissions.
 
+- [Securing Agents with OpenShell and NemoClaw](https://nvdli.github.io/NemoClawDLI/nemoclaw/) - NVIDIA-maintained browser course with editable exercises for building OpenClaw agent loops and constraining tools files and network access with NemoClaw and OpenShell.
+  - Metadata: `course · third-party · free · active`; last verified 2026-09-19. [repository](https://github.com/NVDLI/NemoClawDLI)
+  - Risk: Live exercises can launch a Brev runtime and send learner prompts credentials commands and workspace results to selected external model and sandbox services; use scoped keys review service retention and follow the course security boundaries.
+
 ## Openclaw
 
 - [awesome-openclaw](https://github.com/vincentkoc/awesome-openclaw) - Concise directory of OpenClaw resources integrations deployments and community projects.

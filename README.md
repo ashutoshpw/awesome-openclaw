@@ -53,6 +53,8 @@ Primary project resources maintained by OpenClaw.
 
 Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
+- [Lobster](https://github.com/openclaw/lobster) - Official JSON-first workflow shell and runtime for composing typed OpenClaw tool agent and approval steps into resumable pipelines. 🎖️
+
 - [Channels](https://docs.openclaw.ai/channels) - Connect OpenClaw to messaging services including WhatsApp Telegram Slack Discord Signal and iMessage. 🎖️
 
 - [CLI reference](https://docs.openclaw.ai/cli) - Command-line reference for setup diagnostics pairing skills and operations. 🎖️
@@ -62,6 +64,8 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 - [Configuration](https://docs.openclaw.ai/gateway/configuration) - Configure models channels tools agents and Gateway behavior. 🎖️
 
 - [Crabbox](https://github.com/openclaw/crabbox) - Official CLI and optional coordinator for syncing an OpenClaw working tree to local cloud or delegated runners and executing auditable development workflows. 🎖️
+
+- [Crabpot](https://github.com/openclaw/crabpot) - Official compatibility dashboard and test harness that pins community plugins and probes them against current OpenClaw contracts before API drift reaches plugin authors. 🎖️
 
 - [Plugins](https://docs.openclaw.ai/plugins) - Extend OpenClaw with installable plugins and plugin-provided capabilities. 🎖️
 
@@ -80,6 +84,8 @@ Deeper community-maintained catalogs for focused discovery.
 - [awesome-openclaw-examples](https://github.com/OthmaneBlial/awesome-openclaw-examples) - Runnable use-case starters with setup prompts KPIs security notes and rollback guidance.
 
 - [awesome-openclaw-tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial) - Chinese tutorial and practical guide covering installation configuration and workflows.
+
+- [Securing Agents with OpenShell and NemoClaw](https://nvdli.github.io/NemoClawDLI/nemoclaw/) - NVIDIA-maintained browser course with editable exercises for building OpenClaw agent loops and constraining tools files and network access with NemoClaw and OpenShell.
 
 - [awesome-openclaw](https://github.com/vincentkoc/awesome-openclaw) - Concise directory of OpenClaw resources integrations deployments and community projects.
 
@@ -118,6 +124,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [WeChat for OpenClaw](https://github.com/Tencent/openclaw-weixin) - Tencent-maintained channel plugin that connects personal WeChat accounts to OpenClaw through QR authorization with media and multi-account support.
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
+
+- [Atrium](https://github.com/lacneu/atrium) - Self-hostable multi-user web chat for OpenClaw and Hermes with per-user agent routing streaming files voice and an observability surface.
 
 - [Clawdi](https://github.com/Clawdi-AI/clawdi) - Open-source control plane for hosted or connected OpenClaw agents with sessions memory projects skills vaults channels and model access.
 
@@ -169,6 +177,8 @@ Runnable examples and practical patterns for applying OpenClaw.
 
 Packaging, hosting, isolation, and secure remote operations.
 
+- [ClawRouter](https://github.com/openclaw/clawrouter) - Official provider-neutral gateway for routing policy-scoped OpenClaw credentials across model providers with discovery budgets revocation retention and usage accounting. 🎖️
+
 - [OpenClaw on AWS with Bedrock](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock) - AWS sample CloudFormation deployment for running OpenClaw on EC2 with Amazon Bedrock IAM authentication SSM access monitoring and optional public ingress. 💵
 
 - [OpenClaw Ansible](https://github.com/openclaw/openclaw-ansible) - Ansible-based deployment support. 🎖️
@@ -217,7 +227,11 @@ Security policy, hardening, disclosure, and trust resources.
 
 - [OpenClaw security policy](https://github.com/openclaw/openclaw/blob/main/SECURITY.md) - Official vulnerability-reporting process and security boundaries. 🎖️
 
+- [OpenClaw Plugin Inspector](https://github.com/openclaw/plugin-inspector) - Official compatibility checker that audits OpenClaw plugin metadata imports lifecycle hooks commands routes and runtime contracts with machine-readable reports. 🎖️
+
 - [DashClaw](https://github.com/ucsandman/DashClaw) - Approval and policy layer that can intercept OpenClaw tool calls before execution and route risky actions for human review.
+
+- [ClawScan](https://github.com/openclaw/clawscan) - Official composable scanner harness that runs static and third-party checks on OpenClaw skills and plugins and feeds policy decisions into installation flows. 🎖️
 
 - [Secure OpenClaw](https://github.com/composio-community/secure-openclaw) - Security-focused OpenClaw deployment and hardening project.
 

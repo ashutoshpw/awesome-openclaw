@@ -35,6 +35,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 ## Interfaces
 
+- [Atrium](https://github.com/lacneu/atrium) - Self-hostable multi-user web chat for OpenClaw and Hermes with per-user agent routing streaming files voice and an observability surface.
+  - Metadata: `companion-app · community · free · watch`; last verified 2026-09-19. [repository](https://github.com/lacneu/atrium)
+  - Risk: Atrium stores messages files routing and observability data in Convex and its bridge holds Gateway credentials and can trigger agent tool actions; restrict identity domains keep the admin dashboard private and deploy separate Convex backends for adversarial tenants.
+
 - [Clawdi](https://github.com/Clawdi-AI/clawdi) - Open-source control plane for hosted or connected OpenClaw agents with sessions memory projects skills vaults channels and model access.
   - Metadata: `companion-platform · third-party · freemium · active`; last verified 2026-09-12. [repository](https://github.com/Clawdi-AI/clawdi)
   - Risk: Connected and hosted modes can sync conversations memory projects and credentials to Clawdi and can change local agent resources or trigger channel and managed-runtime actions; review sharing retention vault and billing boundaries.
