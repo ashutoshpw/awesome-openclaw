@@ -3,6 +3,12 @@
 
 Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
+## Automation
+
+- [Lobster](https://github.com/openclaw/lobster) - Official JSON-first workflow shell and runtime for composing typed OpenClaw tool agent and approval steps into resumable pipelines. 🎖️
+  - Metadata: `workflow-engine · official · free · active`; last verified 2026-09-19. [repository](https://github.com/openclaw/lobster)
+  - Risk: Workflows can invoke agents tools shell commands and external systems under a Gateway credential; review definitions and approval gates and set cost and output limits before unattended runs.
+
 ## Channels
 
 - [Channels](https://docs.openclaw.ai/channels) - Connect OpenClaw to messaging services including WhatsApp Telegram Slack Discord Signal and iMessage. 🎖️
@@ -31,6 +37,10 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 - [Crabbox](https://github.com/openclaw/crabbox) - Official CLI and optional coordinator for syncing an OpenClaw working tree to local cloud or delegated runners and executing auditable development workflows. 🎖️
   - Metadata: `developer-tool · official · free · active`; last verified 2026-09-12. [repository](https://github.com/openclaw/crabbox)
   - Risk: Repository configuration can run commands sync source and selected environment values and create billable remote resources; use trusted projects and review provider-specific open issues before unattended use.
+
+- [Crabpot](https://github.com/openclaw/crabpot) - Official compatibility dashboard and test harness that pins community plugins and probes them against current OpenClaw contracts before API drift reaches plugin authors. 🎖️
+  - Metadata: `compatibility-dashboard · official · free · active`; last verified 2026-09-19. [repository](https://github.com/openclaw/crabpot)
+  - Risk: Materializing fixtures fetches and executes third-party packages and some live probes need host state or credentials; use the published static reports for review and isolate local runtime probes and fixture updates.
 
 ## Extensions
 

@@ -5,6 +5,10 @@ Packaging, hosting, isolation, and secure remote operations.
 
 ## Cloud
 
+- [ClawRouter](https://github.com/openclaw/clawrouter) - Official provider-neutral gateway for routing policy-scoped OpenClaw credentials across model providers with discovery budgets revocation retention and usage accounting. 🎖️
+  - Metadata: `api-gateway · official · free · active`; last verified 2026-09-19. [repository](https://github.com/openclaw/clawrouter)
+  - Risk: The service centralizes provider secrets inference traffic and spend policy and its policy default retains request bodies for 30 days; isolate Cloudflare bindings protect issued proxy credentials test revocation and budgets and disable retention where unnecessary.
+
 - [OpenClaw on AWS with Bedrock](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock) - AWS sample CloudFormation deployment for running OpenClaw on EC2 with Amazon Bedrock IAM authentication SSM access monitoring and optional public ingress. 💵
   - Metadata: `deployment · third-party · paid · active`; last verified 2026-08-29. [repository](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock)
   - Risk: Deployment creates IAM roles compute storage networking secrets and optional public endpoints; review least privilege ongoing cost generated Gateway and channel credentials and the documented plaintext CloudFront-to-ALB hop.
