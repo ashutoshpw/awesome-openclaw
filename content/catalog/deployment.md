@@ -9,6 +9,10 @@ Packaging, hosting, isolation, and secure remote operations.
   - Metadata: `api-gateway · official · free · active`; last verified 2026-09-19. [repository](https://github.com/openclaw/clawrouter)
   - Risk: The service centralizes provider secrets inference traffic and spend policy and its policy default retains request bodies for 30 days; isolate Cloudflare bindings protect issued proxy credentials test revocation and budgets and disable retention where unnecessary.
 
+- [OpenClaw on AWS Bedrock AgentCore](https://github.com/aws-samples/sample-host-openclaw-on-amazon-bedrock-agentcore) - AWS sample that deploys per-user OpenClaw containers on Bedrock AgentCore Runtime with channel routing persistent state scheduled tasks observability and optional browser and MCP tools. 💵
+  - Metadata: `deployment · third-party · paid · active`; last verified 2026-09-26. [repository](https://github.com/aws-samples/sample-host-openclaw-on-amazon-bedrock-agentcore)
+  - Risk: Deployment creates billable AWS networking runtime storage identity monitoring and messaging resources and grants scoped access to Bedrock S3 DynamoDB Secrets Manager EventBridge and optional browser or Gateway tools; secure channel secrets review IAM and deletion retention and keep registration closed unless intended.
+
 - [OpenClaw on AWS with Bedrock](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock) - AWS sample CloudFormation deployment for running OpenClaw on EC2 with Amazon Bedrock IAM authentication SSM access monitoring and optional public ingress. 💵
   - Metadata: `deployment · third-party · paid · active`; last verified 2026-08-29. [repository](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock)
   - Risk: Deployment creates IAM roles compute storage networking secrets and optional public endpoints; review least privilege ongoing cost generated Gateway and channel credentials and the documented plaintext CloudFront-to-ALB hop.
