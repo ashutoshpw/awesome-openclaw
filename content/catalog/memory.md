@@ -17,6 +17,10 @@ Memory, session, context, and observability resources.
 
 ## Observability
 
+- [OpenClaw ATIF](https://github.com/openclaw/openclaw-atif) - Official CLI and library for exporting linked OpenClaw session families as Harbor ATIF trajectories with media receipts redaction and completeness evidence. 🎖️
+  - Metadata: `trajectory-exporter · official · free · watch`; last verified 2026-09-26. [repository](https://github.com/openclaw/openclaw-atif)
+  - Risk: Exports can contain sensitive prompts responses tool activity media and accounting data and migration can execute selected source-era or current OpenClaw binaries against copied state; inspect redaction limits and retained-source options before sharing artifacts.
+
 - [Opik for OpenClaw](https://github.com/comet-ml/opik-openclaw) - Native OpenClaw plugin that exports LLM subagent and tool-call traces with usage cost error and run metadata to an Opik project.
   - Metadata: `observability-plugin · third-party · freemium · active`; last verified 2026-08-29. [repository](https://github.com/comet-ml/opik-openclaw)
   - Risk: The Gateway plugin can transmit prompts responses tool inputs outputs errors and attachments to the configured Opik service; scope its API key and review conversation-hook access retention and self-hosted or cloud data boundaries.
@@ -46,6 +50,10 @@ Memory, session, context, and observability resources.
   - Risk: Stored memory can contain sensitive data and influence future actions.
 
 ## Shared Memory
+
+- [Honcho for OpenClaw](https://github.com/plastic-labs/openclaw-honcho) - Plastic Labs plugin that captures participant-scoped conversation memory in Honcho and injects cross-session context search and reasoning tools into OpenClaw.
+  - Metadata: `memory-plugin · third-party · freemium · watch`; last verified 2026-09-26. [repository](https://github.com/plastic-labs/openclaw-honcho)
+  - Risk: The managed plugin uploads conversations workspace memory and participant identifiers to Honcho and injects recalled content into prompts; isolate workspaces protect the API key review sender attribution and migration boundaries and note the open OpenClaw 2026.9.6 memory-slot compatibility fix.
 
 - [mem9](https://mem9.ai/openclaw-memory/) - Server-backed OpenClaw memory plugin for persistent recall across sessions machines and agents with hybrid search and a review dashboard.
   - Metadata: `memory-service · third-party · freemium · active`; last verified 2026-08-22. [repository](https://github.com/mem9-ai/mem9)
