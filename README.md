@@ -63,11 +63,15 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
 - [Configuration](https://docs.openclaw.ai/gateway/configuration) - Configure models channels tools agents and Gateway behavior. 🎖️
 
+- [ClawSweeper](https://github.com/openclaw/clawsweeper) - Official self-hostable maintenance bot for reviewing OpenClaw issues and pull requests and routing guarded repair close and automerge workflows. 🎖️
+
 - [Crabbox](https://github.com/openclaw/crabbox) - Official CLI and optional coordinator for syncing an OpenClaw working tree to local cloud or delegated runners and executing auditable development workflows. 🎖️
 
 - [Crabpot](https://github.com/openclaw/crabpot) - Official compatibility dashboard and test harness that pins community plugins and probes them against current OpenClaw contracts before API drift reaches plugin authors. 🎖️
 
 - [Plugins](https://docs.openclaw.ai/plugins) - Extend OpenClaw with installable plugins and plugin-provided capabilities. 🎖️
+
+- [OpenClaw Manager (OCM)](https://github.com/openclaw/ocm) - Official local control plane for creating isolating upgrading snapshotting and supervising multiple OpenClaw environments and their runtimes. 🎖️
 
 - [Model providers](https://docs.openclaw.ai/concepts/model-providers) - Configure hosted and local model providers for OpenClaw. 🎖️
 
@@ -133,6 +137,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
 
+- [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
+
 - [OpenClaw Kitchen Sink](https://github.com/openclaw/kitchen-sink) - Official credential-free plugin fixture and readable boilerplate covering the public OpenClaw plugin API surface. 🎖️
 
 - [OpenClaw plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) - Official guide for building plugins and extending OpenClaw. 🎖️
@@ -179,6 +185,8 @@ Packaging, hosting, isolation, and secure remote operations.
 
 - [ClawRouter](https://github.com/openclaw/clawrouter) - Official provider-neutral gateway for routing policy-scoped OpenClaw credentials across model providers with discovery budgets revocation retention and usage accounting. 🎖️
 
+- [OpenClaw on AWS Bedrock AgentCore](https://github.com/aws-samples/sample-host-openclaw-on-amazon-bedrock-agentcore) - AWS sample that deploys per-user OpenClaw containers on Bedrock AgentCore Runtime with channel routing persistent state scheduled tasks observability and optional browser and MCP tools. 💵
+
 - [OpenClaw on AWS with Bedrock](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock) - AWS sample CloudFormation deployment for running OpenClaw on EC2 with Amazon Bedrock IAM authentication SSM access monitoring and optional public ingress. 💵
 
 - [OpenClaw Ansible](https://github.com/openclaw/openclaw-ansible) - Ansible-based deployment support. 🎖️
@@ -203,6 +211,8 @@ Memory, session, context, and observability resources.
 
 - [GBrain](https://github.com/garrytan/gbrain) - Self-hosted knowledge and memory layer with an OpenClaw context engine MCP server curated skills hybrid retrieval graph traversal and cited synthesis.
 
+- [OpenClaw ATIF](https://github.com/openclaw/openclaw-atif) - Official CLI and library for exporting linked OpenClaw session families as Harbor ATIF trajectories with media receipts redaction and completeness evidence. 🎖️
+
 - [Opik for OpenClaw](https://github.com/comet-ml/opik-openclaw) - Native OpenClaw plugin that exports LLM subagent and tool-call traces with usage cost error and run metadata to an Opik project.
 
 - [PostHog LLM Analytics for OpenClaw](https://github.com/PostHog/posthog-openclaw) - Vendor-maintained OpenClaw plugin that records generations tool spans traces token usage latency cost and errors in PostHog LLM Analytics.
@@ -214,6 +224,8 @@ Memory, session, context, and observability resources.
 - [Mem0 OpenClaw integration](https://docs.mem0.ai/integrations/openclaw) - Persistent memory integration for OpenClaw. 💵
 
 - [Memory documentation](https://docs.openclaw.ai/concepts/memory) - Official memory context and persistence guidance. 🎖️
+
+- [Honcho for OpenClaw](https://github.com/plastic-labs/openclaw-honcho) - Plastic Labs plugin that captures participant-scoped conversation memory in Honcho and injects cross-session context search and reasoning tools into OpenClaw.
 
 - [mem9](https://mem9.ai/openclaw-memory/) - Server-backed OpenClaw memory plugin for persistent recall across sessions machines and agents with hybrid search and a review dashboard.
 
