@@ -51,6 +51,12 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `integration · community · free · active`; last verified 2026-08-15. [repository](https://github.com/Eliav2/openclaw-openwebui-integration)
   - Risk: Installer uses Open WebUI admin credentials and a Gateway token; the functions persist device identity session state and agent-emitted files in Open WebUI.
 
+## Models
+
+- [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
+  - Metadata: `model-provider · third-party · paid · watch`; last verified 2026-09-26. [repository](https://github.com/vultr/model-provider-openclaw)
+  - Risk: The plugin executes inside OpenClaw and sends prompts responses and usage to Vultr with a billable API key; scope and rotate the key and review available models service retention and provider pricing before use.
+
 ## Plugins
 
 - [OpenClaw Kitchen Sink](https://github.com/openclaw/kitchen-sink) - Official credential-free plugin fixture and readable boilerplate covering the public OpenClaw plugin API surface. 🎖️
