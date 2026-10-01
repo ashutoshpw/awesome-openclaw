@@ -34,6 +34,10 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
 ## Development
 
+- [ClawSweeper](https://github.com/openclaw/clawsweeper) - Official self-hostable maintenance bot for reviewing OpenClaw issues and pull requests and routing guarded repair close and automerge workflows. 🎖️
+  - Metadata: `repository-maintenance · official · free · active`; last verified 2026-09-26. [repository](https://github.com/openclaw/clawsweeper)
+  - Risk: Operators grant repository model and optional Cloudflare credentials and the service can publish reviews create repair branches close items and merge eligible pull requests; restrict target profiles preserve proposal and apply gates and test policies before enabling writes.
+
 - [Crabbox](https://github.com/openclaw/crabbox) - Official CLI and optional coordinator for syncing an OpenClaw working tree to local cloud or delegated runners and executing auditable development workflows. 🎖️
   - Metadata: `developer-tool · official · free · active`; last verified 2026-09-12. [repository](https://github.com/openclaw/crabbox)
   - Risk: Repository configuration can run commands sync source and selected environment values and create billable remote resources; use trusted projects and review provider-specific open issues before unattended use.
@@ -47,6 +51,12 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 - [Plugins](https://docs.openclaw.ai/plugins) - Extend OpenClaw with installable plugins and plugin-provided capabilities. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Plugins execute code and may expand permissions.
+
+## Management
+
+- [OpenClaw Manager (OCM)](https://github.com/openclaw/ocm) - Official local control plane for creating isolating upgrading snapshotting and supervising multiple OpenClaw environments and their runtimes. 🎖️
+  - Metadata: `environment-manager · official · free · active`; last verified 2026-09-26. [repository](https://github.com/openclaw/ocm)
+  - Risk: OCM installs and executes runtimes manages Gateway tokens configuration and service processes and can snapshot migrate upgrade or roll back complete environment state; protect its control directories and review simulated changes before applying them.
 
 ## Models
 
