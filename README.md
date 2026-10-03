@@ -199,6 +199,8 @@ Packaging, hosting, isolation, and secure remote operations.
 
 - [HelmForge OpenClaw chart](https://github.com/helmforgedev/charts/tree/main/charts/openclaw) - Helm chart for a persistent authenticated OpenClaw Gateway with restrictive defaults backups observability and recovery support.
 
+- [OpenClaw Enterprise](https://github.com/openclaw/openclaw-enterprise) - Official open-source control plane for deploying and managing persistent OpenClaw and Codex agents with namespaces IAM secrets revisions audit events and Kubernetes isolation. 🎖️
+
 - [Nix OpenClaw](https://github.com/openclaw/nix-openclaw) - Nix packaging and deployment support. 🎖️
 
 - [Self-hosting security](https://docs.openclaw.ai/gateway/security/exposure-runbook) - Runbook for safely exposing or remotely operating a Gateway. 🎖️
@@ -210,6 +212,8 @@ Memory, session, context, and observability resources.
 - [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw) - Context-engine plugin that preserves OpenClaw transcripts in a SQLite-backed summary DAG and exposes tools for searching and expanding compacted history.
 
 - [GBrain](https://github.com/garrytan/gbrain) - Self-hosted knowledge and memory layer with an OpenClaw context engine MCP server curated skills hybrid retrieval graph traversal and cited synthesis.
+
+- [ClawMetry](https://github.com/vivekchand/clawmetry) - Local-first dashboard that reads OpenClaw sessions logs tools costs memory cron and health signals without SDK instrumentation and can optionally add encrypted cloud sync alerts and policy controls.
 
 - [OpenClaw ATIF](https://github.com/openclaw/openclaw-atif) - Official CLI and library for exporting linked OpenClaw session families as Harbor ATIF trajectories with media receipts redaction and completeness evidence. 🎖️
 
