@@ -11,8 +11,8 @@ Structured catalog records are stored in [data/catalog.csv](../../data/catalog.c
 - [MCP](./mcp.md) - 4 records. Model Context Protocol servers and adapters that can complement agent workflows.
 - [Agents](./agents.md) - 3 records. Agent orchestration, personas, and workspace customization.
 - [Use Cases](./use-cases.md) - 4 records. Runnable examples and practical patterns for applying OpenClaw.
-- [Deployment](./deployment.md) - 10 records. Packaging, hosting, isolation, and secure remote operations.
-- [Memory](./memory.md) - 12 records. Memory, session, context, and observability resources.
+- [Deployment](./deployment.md) - 11 records. Packaging, hosting, isolation, and secure remote operations.
+- [Memory](./memory.md) - 13 records. Memory, session, context, and observability resources.
 - [Security](./security.md) - 11 records. Security policy, hardening, disclosure, and trust resources.
 - [Community](./community.md) - 4 records. Support, learning, issue tracking, and release resources.
 - [Alternatives](./alternatives.md) - 3 records. Related and alternative personal-agent projects.
