@@ -17,6 +17,10 @@ Memory, session, context, and observability resources.
 
 ## Observability
 
+- [ClawMetry](https://github.com/vivekchand/clawmetry) - Local-first dashboard that reads OpenClaw sessions logs tools costs memory cron and health signals without SDK instrumentation and can optionally add encrypted cloud sync alerts and policy controls.
+  - Metadata: `observability-dashboard · community · freemium · active`; last verified 2026-10-03. [repository](https://github.com/vivekchand/clawmetry)
+  - Risk: ClawMetry reads sensitive local transcripts logs skills and configuration and optional features can upload encrypted snapshots send alerts manage cron or gate tools; default telemetry and version checks are opt-out and any non-loopback dashboard needs independent authentication.
+
 - [OpenClaw ATIF](https://github.com/openclaw/openclaw-atif) - Official CLI and library for exporting linked OpenClaw session families as Harbor ATIF trajectories with media receipts redaction and completeness evidence. 🎖️
   - Metadata: `trajectory-exporter · official · free · watch`; last verified 2026-09-26. [repository](https://github.com/openclaw/openclaw-atif)
   - Risk: Exports can contain sensitive prompts responses tool activity media and accounting data and migration can execute selected source-era or current OpenClaw binaries against copied state; inspect redaction limits and retained-source options before sharing artifacts.
