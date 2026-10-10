@@ -49,9 +49,19 @@ Security policy, hardening, disclosure, and trust resources.
   - Metadata: `security-tool · third-party · free · active`; last verified 2026-09-05. [repository](https://github.com/prompt-security/clawsec)
   - Risk: Setup scripts can install persistent hooks cron workflows and integrity baselines and may change OpenClaw configuration; review preflight and remediation actions and note that the suite recommends and gates actions rather than sandboxing execution.
 
+- [GoPlus AgentGuard](https://github.com/GoPlusSecurity/agentguard) - Vendor-maintained guard that scans OpenClaw skills and plugins and evaluates tool calls against local policies with a trust registry and scheduled patrols.
+  - Metadata: `security-tool · third-party · free · active`; last verified 2026-10-10. [repository](https://github.com/GoPlusSecurity/agentguard)
+  - Risk: Initialization installs hooks or plugins and can write trust configuration cron jobs and audit state; heuristic decisions can miss or block actions and optional cloud sync sends redacted telemetry outside the host.
+
 - [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security layer that inventories OpenClaw configuration channels skills and MCP servers and evaluates managed MCP package actions against policy with approvals and receipts.
   - Metadata: `security-tool · third-party · freemium · active`; last verified 2026-08-29. [repository](https://github.com/hashgraph-online/hol-guard)
   - Risk: Installation adds a Guard-managed launch overlay approval service policy state and optional cloud sync; OpenClaw support is limited to MCP-tool enforcement and host decisions rather than pre-execution shell or file interception and Guard is not a sandbox.
+
+## Secrets
+
+- [Infisical Agent Vault](https://github.com/Infisical/agent-vault) - Open-source credential vault and HTTP proxy that can run OpenClaw without placing upstream API secrets in the agent environment.
+  - Metadata: `credential-broker · third-party · free · watch`; last verified 2026-10-10. [repository](https://github.com/Infisical/agent-vault)
+  - Risk: The MITM proxy terminates TLS and injects production credentials into allowed requests; isolate both service ports and protect the CA master password agent tokens database and opt-out telemetry while the preview API evolves.
 
 ## Trust
 
