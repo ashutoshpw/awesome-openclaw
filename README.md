@@ -115,11 +115,15 @@ Skill registries and guidance for extending OpenClaw capabilities.
 
 - [ClawHub source](https://github.com/openclaw/clawhub) - CLI and registry source for searching inspecting and installing skills. 🎖️
 
+- [Tuya Smart Control](https://github.com/tuya/tuya-openclaw-skills) - Tuya-maintained OpenClaw skill for querying and controlling supported smart-home devices and receiving device events through the Tuya end-user cloud API.
+
 ## Integrations
 
 Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [Apify for OpenClaw](https://github.com/apify/apify-openclaw-plugin) - Vendor-maintained plugin that lets OpenClaw discover and run Apify Actors and collect resulting datasets.
+
+- [ZenRows for OpenClaw](https://github.com/ZenRows/openclaw-zenrows) - ZenRows-maintained plugin that connects OpenClaw to hosted web fetching extraction batch and browser-automation tools through the vendor MCP server.
 
 - [DingTalk OpenClaw Connector](https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector) - Vendor-maintained channel plugin for OpenClaw messaging documents tasks sheets calendars reports and multi-agent routing in DingTalk.
 
@@ -138,6 +142,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [ClawX](https://github.com/ValueCell-ai/ClawX) - Cross-platform Electron desktop interface that bundles OpenClaw with guided provider setup chat agent channel schedule and skill management.
 
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
+
+- [CoreWeave Serverless Inference](https://github.com/coreweave/serverless-inference-openclaw-plugin) - CoreWeave-maintained provider plugin that adds verified live Serverless Inference model discovery and selection to OpenClaw. 💵
 
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
 
@@ -259,7 +265,11 @@ Security policy, hardening, disclosure, and trust resources.
 
 - [ClawSec](https://github.com/prompt-security/clawsec) - Security skill suite with signed advisory intelligence guarded installation checks configuration-drift detection and OpenClaw environment audits.
 
+- [GoPlus AgentGuard](https://github.com/GoPlusSecurity/agentguard) - Vendor-maintained guard that scans OpenClaw skills and plugins and evaluates tool calls against local policies with a trust registry and scheduled patrols.
+
 - [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first security layer that inventories OpenClaw configuration channels skills and MCP servers and evaluates managed MCP package actions against policy with approvals and receipts.
+
+- [Infisical Agent Vault](https://github.com/Infisical/agent-vault) - Open-source credential vault and HTTP proxy that can run OpenClaw without placing upstream API secrets in the agent environment.
 
 - [OpenClaw trust page](https://trust.openclaw.ai) - Official trust security and responsible-disclosure information. 🎖️
 
