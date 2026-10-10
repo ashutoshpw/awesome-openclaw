@@ -25,4 +25,10 @@ Skill registries and guidance for extending OpenClaw capabilities.
   - Metadata: `official-project · official · free · active`; last verified 2026-08-12. [repository](https://github.com/openclaw/clawhub)
   - Risk: Review package behavior and registry metadata before installation.
 
+## Smart Home
+
+- [Tuya Smart Control](https://github.com/tuya/tuya-openclaw-skills) - Tuya-maintained OpenClaw skill for querying and controlling supported smart-home devices and receiving device events through the Tuya end-user cloud API.
+  - Metadata: `skill · third-party · freemium · watch`; last verified 2026-10-10. [repository](https://github.com/tuya/tuya-openclaw-skills)
+  - Risk: The API key exposes home and device metadata and can permit physical device control camera captures notifications and renames; trial endpoints have quotas and may change so require confirmation for consequential actions.
+
 [Back to catalog index](index.md)
