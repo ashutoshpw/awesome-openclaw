@@ -9,6 +9,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `integration · third-party · freemium · active`; last verified 2026-09-05. [repository](https://github.com/apify/apify-openclaw-plugin)
   - Risk: The API token grants Apify platform access and Actor runs can incur charges execute third-party automation and return untrusted scraped data; restrict tools and review Actor inputs.
 
+- [ZenRows for OpenClaw](https://github.com/ZenRows/openclaw-zenrows) - ZenRows-maintained plugin that connects OpenClaw to hosted web fetching extraction batch and browser-automation tools through the vendor MCP server.
+  - Metadata: `mcp-plugin · third-party · freemium · watch`; last verified 2026-10-10. [repository](https://github.com/ZenRows/openclaw-zenrows)
+  - Risk: OAuth or API credentials grant access to a metered hosted service and tools can fetch untrusted content drive remote browser sessions and create jobs that consume credits or affect external sites.
+
 ## Channels
 
 - [DingTalk OpenClaw Connector](https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector) - Vendor-maintained channel plugin for OpenClaw messaging documents tasks sheets calendars reports and multi-agent routing in DingTalk.
@@ -52,6 +56,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Risk: Installer uses Open WebUI admin credentials and a Gateway token; the functions persist device identity session state and agent-emitted files in Open WebUI.
 
 ## Models
+
+- [CoreWeave Serverless Inference](https://github.com/coreweave/serverless-inference-openclaw-plugin) - CoreWeave-maintained provider plugin that adds verified live Serverless Inference model discovery and selection to OpenClaw. 💵
+  - Metadata: `model-provider · third-party · paid · watch`; last verified 2026-10-10. [repository](https://github.com/coreweave/serverless-inference-openclaw-plugin)
+  - Risk: The plugin runs inside OpenClaw and sends prompts responses usage metadata and a billable API credential to CoreWeave; review model provenance service retention and current inference pricing before use.
 
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
   - Metadata: `model-provider · third-party · paid · watch`; last verified 2026-09-26. [repository](https://github.com/vultr/model-provider-openclaw)
