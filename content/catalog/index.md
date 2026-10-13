@@ -4,7 +4,7 @@
 Structured catalog records are stored in [data/catalog.csv](../../data/catalog.csv) and published here with metadata, verification dates, and risk notes.
 
 - [Official](./official.md) - 7 records. Primary project resources maintained by OpenClaw.
-- [Operations](./operations.md) - 13 records. Documentation for installing, configuring, and operating an OpenClaw Gateway.
+- [Operations](./operations.md) - 14 records. Documentation for installing, configuring, and operating an OpenClaw Gateway.
 - [Directories](./directories.md) - 9 records. Deeper community-maintained catalogs for focused discovery.
 - [Skills](./skills.md) - 4 records. Skill registries and guidance for extending OpenClaw capabilities.
 - [Integrations](./integrations.md) - 14 records. Plugins, channels, and integrations that connect OpenClaw to other systems.
