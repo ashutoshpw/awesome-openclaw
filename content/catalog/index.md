@@ -6,13 +6,13 @@ Structured catalog records are stored in [data/catalog.csv](../../data/catalog.c
 - [Official](./official.md) - 7 records. Primary project resources maintained by OpenClaw.
 - [Operations](./operations.md) - 14 records. Documentation for installing, configuring, and operating an OpenClaw Gateway.
 - [Directories](./directories.md) - 9 records. Deeper community-maintained catalogs for focused discovery.
-- [Skills](./skills.md) - 4 records. Skill registries and guidance for extending OpenClaw capabilities.
-- [Integrations](./integrations.md) - 14 records. Plugins, channels, and integrations that connect OpenClaw to other systems.
+- [Skills](./skills.md) - 5 records. Skill registries and guidance for extending OpenClaw capabilities.
+- [Integrations](./integrations.md) - 16 records. Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [MCP](./mcp.md) - 4 records. Model Context Protocol servers and adapters that can complement agent workflows.
 - [Agents](./agents.md) - 3 records. Agent orchestration, personas, and workspace customization.
 - [Use Cases](./use-cases.md) - 4 records. Runnable examples and practical patterns for applying OpenClaw.
 - [Deployment](./deployment.md) - 11 records. Packaging, hosting, isolation, and secure remote operations.
 - [Memory](./memory.md) - 13 records. Memory, session, context, and observability resources.
-- [Security](./security.md) - 11 records. Security policy, hardening, disclosure, and trust resources.
+- [Security](./security.md) - 13 records. Security policy, hardening, disclosure, and trust resources.
 - [Community](./community.md) - 4 records. Support, learning, issue tracking, and release resources.
 - [Alternatives](./alternatives.md) - 3 records. Related and alternative personal-agent projects.
