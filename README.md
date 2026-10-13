@@ -75,11 +75,11 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
 - [Model providers](https://docs.openclaw.ai/concepts/model-providers) - Configure hosted and local model providers for OpenClaw. 🎖️
 
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Self-hosted offline monitoring dashboard for OpenClaw agents charting token usage per model session activity and 7-day trends.
+
 - [Getting started](https://docs.openclaw.ai/start/getting-started) - Recommended path from installation to a first working assistant. 🎖️
 
 - [Installation](https://docs.openclaw.ai/install) - Official installer package Docker Nix and platform deployment paths. 🎖️
-- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Self-hosted monitoring dashboard for OpenClaw agents: token usage per model, session tracking, and 7-day trends. Vue 3 + ECharts, Docker deploy, MIT.
-
 
 ## Directories
 

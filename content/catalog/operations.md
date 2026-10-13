@@ -64,6 +64,11 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
   - Metadata: `documentation · official · unknown · active`; last verified 2026-08-12.
   - Risk: Provider credentials and usage costs require explicit review.
 
+## Monitoring
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Self-hosted offline monitoring dashboard for OpenClaw agents charting token usage per model session activity and 7-day trends.
+  - Metadata: `monitoring-dashboard · community · free · watch`; last verified 2026-10-13. [repository](https://github.com/flik2002/openclaw-monitor)
+
 ## Onboarding
 
 - [Getting started](https://docs.openclaw.ai/start/getting-started) - Recommended path from installation to a first working assistant. 🎖️
