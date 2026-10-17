@@ -95,8 +95,6 @@ Deeper community-maintained catalogs for focused discovery.
 
 - [awesome-openclaw](https://github.com/vincentkoc/awesome-openclaw) - Concise directory of OpenClaw resources integrations deployments and community projects.
 
-- [awesome-openclaw-tips](https://github.com/alvinreal/awesome-openclaw-tips) - Practical tips for messaging memory reliability cost operations and automation.
-
 - [awesome-openclaw-skills](https://github.com/sundial-org/awesome-openclaw-skills) - Large categorized skill directory covering productivity development media research and infrastructure.
 
 - [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Curated ClawHub skills organized by capability.
@@ -144,6 +142,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
 
 - [CoreWeave Serverless Inference](https://github.com/coreweave/serverless-inference-openclaw-plugin) - CoreWeave-maintained provider plugin that adds verified live Serverless Inference model discovery and selection to OpenClaw. 💵
+
+- [CSGLite](https://github.com/OpenCSGs/csglite) - Cross-platform local inference platform with an OpenAI-compatible API and one-click OpenClaw installation model selection configuration and launch.
 
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
 
@@ -217,7 +217,11 @@ Packaging, hosting, isolation, and secure remote operations.
 
 Memory, session, context, and observability resources.
 
+- [Claude-Mem](https://github.com/thedotmack/claude-mem) - Persistent-memory plugin that captures OpenClaw tool observations summarizes sessions and injects a searchable cross-session timeline with an optional live channel feed.
+
 - [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw) - Context-engine plugin that preserves OpenClaw transcripts in a SQLite-backed summary DAG and exposes tools for searching and expanding compacted history.
+
+- [AtMem](https://github.com/aetna000/atmem) - Local-first reversible memory control plane that mirrors native OpenClaw memory in shadow mode and adds governed recall provenance Agent Black Box evidence and verified restore.
 
 - [GBrain](https://github.com/garrytan/gbrain) - Self-hosted knowledge and memory layer with an OpenClaw context engine MCP server curated skills hybrid retrieval graph traversal and cited synthesis.
 
@@ -262,6 +266,8 @@ Security policy, hardening, disclosure, and trust resources.
 - [Security guide](https://docs.openclaw.ai/gateway/security) - Understand pairing authentication exposure permissions and the trusted-operator model. 🎖️
 
 - [Security practice guide](https://github.com/slowmist/openclaw-security-practice-guide) - Security guidance for deploying and operating OpenClaw.
+
+- [CC Safety Net](https://github.com/kenryu42/cc-safety-net) - Local pre-execution guard that blocks destructive shell and file operations and common secret-access attempts through a native OpenClaw plugin with configurable offline policies.
 
 - [ClawSec](https://github.com/prompt-security/clawsec) - Security skill suite with signed advisory intelligence guarded installation checks configuration-drift detection and OpenClaw environment audits.
 

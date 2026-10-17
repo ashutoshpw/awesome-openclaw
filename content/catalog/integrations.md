@@ -61,6 +61,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `model-provider · third-party · paid · watch`; last verified 2026-10-10. [repository](https://github.com/coreweave/serverless-inference-openclaw-plugin)
   - Risk: The plugin runs inside OpenClaw and sends prompts responses usage metadata and a billable API credential to CoreWeave; review model provenance service retention and current inference pricing before use.
 
+- [CSGLite](https://github.com/OpenCSGs/csglite) - Cross-platform local inference platform with an OpenAI-compatible API and one-click OpenClaw installation model selection configuration and launch.
+  - Metadata: `local-inference-platform · third-party · freemium · active`; last verified 2026-10-17. [repository](https://github.com/OpenCSGs/csglite)
+  - Risk: Installers can fetch runtimes install OpenClaw modify provider profiles download large model weights and start local or LAN services; optional private-model and hosted-provider credentials require protection and non-loopback APIs clusters and third-party inference need explicit access and data-flow review.
+
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
   - Metadata: `model-provider · third-party · paid · watch`; last verified 2026-09-26. [repository](https://github.com/vultr/model-provider-openclaw)
   - Risk: The plugin executes inside OpenClaw and sends prompts responses and usage to Vultr with a billable API key; scope and rotate the key and review available models service retention and provider pricing before use.

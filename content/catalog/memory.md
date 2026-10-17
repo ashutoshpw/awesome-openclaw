@@ -5,9 +5,19 @@ Memory, session, context, and observability resources.
 
 ## Context Management
 
+- [Claude-Mem](https://github.com/thedotmack/claude-mem) - Persistent-memory plugin that captures OpenClaw tool observations summarizes sessions and injects a searchable cross-session timeline with an optional live channel feed.
+  - Metadata: `memory-plugin · community · freemium · active`; last verified 2026-10-17. [repository](https://github.com/thedotmack/claude-mem)
+  - Risk: Claude-Mem records prompts tool inputs outputs and summaries in a local worker and sends content to the selected model provider; optional cloud sync and channel feeds export memory externally so protect provider credentials the worker port and sensitive history.
+
 - [Lossless Claw](https://github.com/Martian-Engineering/lossless-claw) - Context-engine plugin that preserves OpenClaw transcripts in a SQLite-backed summary DAG and exposes tools for searching and expanding compacted history.
   - Metadata: `context-engine · community · free · active`; last verified 2026-08-22. [repository](https://github.com/Martian-Engineering/lossless-claw)
   - Risk: The plugin replaces the context engine and stores full transcript history locally while using the configured model provider for summaries; databases and backups can contain sensitive content.
+
+## Governance
+
+- [AtMem](https://github.com/aetna000/atmem) - Local-first reversible memory control plane that mirrors native OpenClaw memory in shadow mode and adds governed recall provenance Agent Black Box evidence and verified restore.
+  - Metadata: `memory-control-plane · community · free · watch`; last verified 2026-10-17. [repository](https://github.com/aetna000/atmem)
+  - Risk: Installation adds a pinned bridge and companion runtimes copies and can freeze native memory restarts the Gateway and writes audit evidence; databases may contain sensitive context and optional hosted models receive selected content so verify shadow mode backups identity scopes and restore before activation.
 
 ## Knowledge Graph
 
