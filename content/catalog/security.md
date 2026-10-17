@@ -45,6 +45,10 @@ Security policy, hardening, disclosure, and trust resources.
 
 ## Runtime Protection
 
+- [CC Safety Net](https://github.com/kenryu42/cc-safety-net) - Local pre-execution guard that blocks destructive shell and file operations and common secret-access attempts through a native OpenClaw plugin with configurable offline policies.
+  - Metadata: `security-tool · community · free · active`; last verified 2026-10-17. [repository](https://github.com/kenryu42/cc-safety-net)
+  - Risk: Static analysis is not a sandbox and documented parser path and host-context gaps can miss unsafe commands or block safe ones; installation writes an OpenClaw extension policy audit state and configuration so retain native approvals and OS isolation.
+
 - [ClawSec](https://github.com/prompt-security/clawsec) - Security skill suite with signed advisory intelligence guarded installation checks configuration-drift detection and OpenClaw environment audits.
   - Metadata: `security-tool · third-party · free · active`; last verified 2026-09-05. [repository](https://github.com/prompt-security/clawsec)
   - Risk: Setup scripts can install persistent hooks cron workflows and integrity baselines and may change OpenClaw configuration; review preflight and remediation actions and note that the suite recommends and gates actions rather than sandboxing execution.

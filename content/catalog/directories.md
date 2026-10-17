@@ -29,12 +29,6 @@ Deeper community-maintained catalogs for focused discovery.
 - [awesome-openclaw](https://github.com/vincentkoc/awesome-openclaw) - Concise directory of OpenClaw resources integrations deployments and community projects.
   - Metadata: `directory · community · free · active`; last verified 2026-08-12. [repository](https://github.com/vincentkoc/awesome-openclaw)
 
-## Operations
-
-- [awesome-openclaw-tips](https://github.com/alvinreal/awesome-openclaw-tips) - Practical tips for messaging memory reliability cost operations and automation.
-  - Metadata: `directory · community · free · active`; last verified 2026-08-12. [repository](https://github.com/alvinreal/awesome-openclaw-tips)
-  - Risk: Operational snippets can change configuration or send messages.
-
 ## Skills
 
 - [awesome-openclaw-skills](https://github.com/sundial-org/awesome-openclaw-skills) - Large categorized skill directory covering productivity development media research and infrastructure.
