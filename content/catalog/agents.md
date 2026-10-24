@@ -5,6 +5,10 @@ Agent orchestration, personas, and workspace customization.
 
 ## Orchestration
 
+- [AgentTeams](https://github.com/agentscope-ai/AgentTeams) - Self-hostable coordination platform that runs OpenClaw managers and workers alongside other agent runtimes in Matrix rooms with shared files human intervention and Kubernetes control.
+  - Metadata: `multi-agent-platform · third-party · free · active`; last verified 2026-10-24. [repository](https://github.com/agentscope-ai/AgentTeams)
+  - Risk: Installation deploys an AI gateway Matrix object storage containers and optional Kubernetes resources and holds model infrastructure and admin credentials; optional Docker socket access workers tool execution shared files and public Matrix exposure require strict tenant network storage and approval controls.
+
 - [Multi-agent documentation](https://docs.openclaw.ai/concepts/multi-agent) - Official guidance for configuring multiple agents. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Multiple agents increase routing and permission complexity.
