@@ -17,6 +17,10 @@ Packaging, hosting, isolation, and secure remote operations.
   - Metadata: `deployment · third-party · paid · active`; last verified 2026-08-29. [repository](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock)
   - Risk: Deployment creates IAM roles compute storage networking secrets and optional public endpoints; review least privilege ongoing cost generated Gateway and channel credentials and the documented plaintext CloudFront-to-ALB hop.
 
+- [OpenClaw Railway Template](https://github.com/arjunkomath/openclaw-railway-template) - One-click Railway template with password-protected onboarding persistent state reverse-proxied Gateway access device approval recovery tools and automated upstream version updates. 💵
+  - Metadata: `deployment · community · paid · active`; last verified 2026-10-24. [repository](https://github.com/arjunkomath/openclaw-railway-template)
+  - Risk: The template exposes a Gateway and setup wizard on a public Railway endpoint and stores model channel and Gateway secrets on a persistent volume; protect the setup password approve devices carefully review reset export and doctor actions and monitor hosting and model charges.
+
 ## Configuration
 
 - [OpenClaw Ansible](https://github.com/openclaw/openclaw-ansible) - Ansible-based deployment support. 🎖️
@@ -28,6 +32,10 @@ Packaging, hosting, isolation, and secure remote operations.
 - [Docker deployment](https://docs.openclaw.ai/install/docker) - Run OpenClaw in a containerized environment. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Container mounts and network exposure need explicit review.
+
+- [OpenClaw for Coolify](https://github.com/coollabsio/openclaw) - Maintained multi-architecture Docker images for running OpenClaw with persistent state authenticated proxying health checks optional browser automation and automated upstream updates.
+  - Metadata: `container-image · third-party · free · watch`; last verified 2026-10-24. [repository](https://github.com/coollabsio/openclaw)
+  - Risk: The image persists Gateway credentials sessions devices and workspace data and can expose browser and webhook surfaces; mounting the Docker socket grants host-level control while public proxy configuration provider keys and backups require independent hardening.
 
 ## Isolation
 

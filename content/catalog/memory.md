@@ -63,6 +63,10 @@ Memory, session, context, and observability resources.
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Stored memory can contain sensitive data and influence future actions.
 
+- [Memory LanceDB Pro](https://github.com/CortexReach/memory-lancedb-pro) - Local-first OpenClaw memory plugin with LanceDB hybrid retrieval multi-scope isolation automatic capture recall a management CLI and optional reflection and dreaming flows.
+  - Metadata: `memory-plugin · community · free · watch`; last verified 2026-10-24. [repository](https://github.com/CortexReach/memory-lancedb-pro)
+  - Risk: The plugin stores conversation-derived memory locally and sends selected content to configured embedding reranking and extraction providers; migration consolidation deletion and automatic capture can change durable memory so protect provider keys back up LanceDB and review beta defaults and scope isolation.
+
 ## Shared Memory
 
 - [Honcho for OpenClaw](https://github.com/plastic-labs/openclaw-honcho) - Plastic Labs plugin that captures participant-scoped conversation memory in Honcho and injects cross-session context search and reasoning tools into OpenClaw.

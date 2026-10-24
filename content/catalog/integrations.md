@@ -31,6 +31,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `integration · third-party · free · active`; last verified 2026-09-05. [repository](https://github.com/Tencent/openclaw-weixin)
   - Risk: QR authorization stores reusable login credentials locally and the plugin can receive and send messages media and typing state through Tencent services; isolate accounts and sessions and protect tokens.
 
+- [WeCom for OpenClaw](https://github.com/WecomTeam/wecom-openclaw-plugin) - WeCom-maintained channel and business-capability plugin for messaging media documents sheets calendars meetings mail contacts and multi-account OpenClaw routing.
+  - Metadata: `integration · third-party · free · active`; last verified 2026-10-24. [repository](https://github.com/WecomTeam/wecom-openclaw-plugin)
+  - Risk: WeCom bot and agent credentials can expose enterprise chats contacts files mail calendars meetings and documents while tools can send messages and create update or delete business data; use pairing allowlists scoped accounts path restrictions and least privilege.
+
 ## Hardware
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
@@ -84,5 +88,11 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [Apple PIM](https://github.com/omarshahine/apple-pim) - macOS OpenClaw plugin for reading and changing Calendar Reminders Contacts and Mail through native Swift tools with per-domain and per-profile access controls.
   - Metadata: `integration · community · free · active`; last verified 2026-08-22. [repository](https://github.com/omarshahine/apple-pim)
   - Risk: macOS permissions can expose calendars reminders contacts and Mail plus optional Full Disk Access; the plugin can create update delete and send data so use restrictive profiles and egress allowlists.
+
+## Smart Home
+
+- [OpenClaw Home Assistant Add-on](https://github.com/techartdev/OpenClawHomeAssistant) - Home Assistant add-on that runs OpenClaw inside Home Assistant OS with an Assist-compatible API persistent storage a web terminal and optional browser automation.
+  - Metadata: `home-assistant-addon · community · free · active`; last verified 2026-10-24. [repository](https://github.com/techartdev/OpenClawHomeAssistant)
+  - Risk: The add-on stores model and channel credentials inside persistent Home Assistant storage and can run skills browser automation and network commands; optional router SSH access and exposed Gateway or terminal endpoints can control devices and external systems so restrict permissions network reachability and backups.
 
 [Back to catalog index](index.md)

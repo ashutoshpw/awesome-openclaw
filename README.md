@@ -131,6 +131,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [WeChat for OpenClaw](https://github.com/Tencent/openclaw-weixin) - Tencent-maintained channel plugin that connects personal WeChat accounts to OpenClaw through QR authorization with media and multi-account support.
 
+- [WeCom for OpenClaw](https://github.com/WecomTeam/wecom-openclaw-plugin) - WeCom-maintained channel and business-capability plugin for messaging media documents sheets calendars meetings mail contacts and multi-account OpenClaw routing.
+
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
 
 - [Atrium](https://github.com/lacneu/atrium) - Self-hostable multi-user web chat for OpenClaw and Hermes with per-user agent routing streaming files voice and an observability surface.
@@ -153,6 +155,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [Apple PIM](https://github.com/omarshahine/apple-pim) - macOS OpenClaw plugin for reading and changing Calendar Reminders Contacts and Mail through native Swift tools with per-domain and per-profile access controls.
 
+- [OpenClaw Home Assistant Add-on](https://github.com/techartdev/OpenClawHomeAssistant) - Home Assistant add-on that runs OpenClaw inside Home Assistant OS with an Assist-compatible API persistent storage a web terminal and optional browser automation.
+
 ## MCP
 
 Model Context Protocol servers and adapters that can complement agent workflows.
@@ -168,6 +172,8 @@ Model Context Protocol servers and adapters that can complement agent workflows.
 ## Agents
 
 Agent orchestration, personas, and workspace customization.
+
+- [AgentTeams](https://github.com/agentscope-ai/AgentTeams) - Self-hostable coordination platform that runs OpenClaw managers and workers alongside other agent runtimes in Matrix rooms with shared files human intervention and Kubernetes control.
 
 - [Multi-agent documentation](https://docs.openclaw.ai/concepts/multi-agent) - Official guidance for configuring multiple agents. 🎖️
 
@@ -197,9 +203,13 @@ Packaging, hosting, isolation, and secure remote operations.
 
 - [OpenClaw on AWS with Bedrock](https://github.com/aws-samples/sample-OpenClaw-on-AWS-with-Bedrock) - AWS sample CloudFormation deployment for running OpenClaw on EC2 with Amazon Bedrock IAM authentication SSM access monitoring and optional public ingress. 💵
 
+- [OpenClaw Railway Template](https://github.com/arjunkomath/openclaw-railway-template) - One-click Railway template with password-protected onboarding persistent state reverse-proxied Gateway access device approval recovery tools and automated upstream version updates. 💵
+
 - [OpenClaw Ansible](https://github.com/openclaw/openclaw-ansible) - Ansible-based deployment support. 🎖️
 
 - [Docker deployment](https://docs.openclaw.ai/install/docker) - Run OpenClaw in a containerized environment. 🎖️
+
+- [OpenClaw for Coolify](https://github.com/coollabsio/openclaw) - Maintained multi-architecture Docker images for running OpenClaw with persistent state authenticated proxying health checks optional browser automation and automated upstream updates.
 
 - [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw) - Reference stack for running OpenClaw and other supported agents inside NVIDIA OpenShell sandboxes with managed inference network policy snapshots and lifecycle operations.
 
@@ -240,6 +250,8 @@ Memory, session, context, and observability resources.
 - [Mem0 OpenClaw integration](https://docs.mem0.ai/integrations/openclaw) - Persistent memory integration for OpenClaw. 💵
 
 - [Memory documentation](https://docs.openclaw.ai/concepts/memory) - Official memory context and persistence guidance. 🎖️
+
+- [Memory LanceDB Pro](https://github.com/CortexReach/memory-lancedb-pro) - Local-first OpenClaw memory plugin with LanceDB hybrid retrieval multi-scope isolation automatic capture recall a management CLI and optional reflection and dreaming flows.
 
 - [Honcho for OpenClaw](https://github.com/plastic-labs/openclaw-honcho) - Plastic Labs plugin that captures participant-scoped conversation memory in Honcho and injects cross-session context search and reasoning tools into OpenClaw.
 
