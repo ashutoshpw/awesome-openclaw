@@ -131,6 +131,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [WeChat for OpenClaw](https://github.com/Tencent/openclaw-weixin) - Tencent-maintained channel plugin that connects personal WeChat accounts to OpenClaw through QR authorization with media and multi-account support.
 
+- [OpenClaw Voice Call Realtime](https://github.com/TristanBrotherton/openclaw-voice-call-realtime) - OpenClaw plugin for inbound and outbound Twilio calls backed by OpenAI Realtime with transcripts call screening calendar and optional Home Assistant actions. 💵
+
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
 
 - [Atrium](https://github.com/lacneu/atrium) - Self-hostable multi-user web chat for OpenClaw and Hermes with per-user agent routing streaming files voice and an observability surface.
@@ -145,6 +147,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [CSGLite](https://github.com/OpenCSGs/csglite) - Cross-platform local inference platform with an OpenAI-compatible API and one-click OpenClaw installation model selection configuration and launch.
 
+- [Pollinations for OpenClaw](https://github.com/pollinations/openclaw) - Pollinations-maintained setup that installs a dedicated model-provider key live model catalog and media-generation skill into an existing OpenClaw deployment with rollback support.
+
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
 
 - [OpenClaw Kitchen Sink](https://github.com/openclaw/kitchen-sink) - Official credential-free plugin fixture and readable boilerplate covering the public OpenClaw plugin API surface. 🎖️
@@ -152,6 +156,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [OpenClaw plugin SDK](https://docs.openclaw.ai/plugins/building-plugins) - Official guide for building plugins and extending OpenClaw. 🎖️
 
 - [Apple PIM](https://github.com/omarshahine/apple-pim) - macOS OpenClaw plugin for reading and changing Calendar Reminders Contacts and Mail through native Swift tools with per-domain and per-profile access controls.
+
+- [Nextcloud for OpenClaw](https://github.com/keithvassallomt/openclaw-nextcloud) - OpenClaw skill that exposes documented Nextcloud notes files calendars tasks contacts and Deck workflows with explicit confirmation tokens for destructive actions.
 
 ## MCP
 
@@ -168,6 +174,10 @@ Model Context Protocol servers and adapters that can complement agent workflows.
 ## Agents
 
 Agent orchestration, personas, and workspace customization.
+
+- [Personal Agent Dossier](https://github.com/AidaShika/personal-agent-dossier) - Open neutral and secret-free handover format with an implemented OpenClaw adapter for exporting and importing agent identity routines memory references and dependency manifests with loss reports.
+
+- [Builderz Labs Mission Control](https://github.com/builderz-labs/mission-control) - Self-hosted cross-runtime control plane for dispatching reviewing and scheduling agent work while tracking OpenClaw sessions skills memory activity and spend.
 
 - [Multi-agent documentation](https://docs.openclaw.ai/concepts/multi-agent) - Official guidance for configuring multiple agents. 🎖️
 
@@ -208,6 +218,8 @@ Packaging, hosting, isolation, and secure remote operations.
 - [HelmForge OpenClaw chart](https://github.com/helmforgedev/charts/tree/main/charts/openclaw) - Helm chart for a persistent authenticated OpenClaw Gateway with restrictive defaults backups observability and recovery support.
 
 - [OpenClaw Enterprise](https://github.com/openclaw/openclaw-enterprise) - Official open-source control plane for deploying and managing persistent OpenClaw and Codex agents with namespaces IAM secrets revisions audit events and Kubernetes isolation. 🎖️
+
+- [OpenClaw Kubernetes Operator](https://github.com/stubbi/openclaw-operator) - Kubernetes operator that reconciles hardened persistent and observable OpenClaw instances from a declarative custom resource with lifecycle and self-configuration controls.
 
 - [Nix OpenClaw](https://github.com/openclaw/nix-openclaw) - Nix packaging and deployment support. 🎖️
 

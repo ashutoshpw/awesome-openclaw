@@ -31,6 +31,12 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `integration · third-party · free · active`; last verified 2026-09-05. [repository](https://github.com/Tencent/openclaw-weixin)
   - Risk: QR authorization stores reusable login credentials locally and the plugin can receive and send messages media and typing state through Tencent services; isolate accounts and sessions and protect tokens.
 
+## Communication
+
+- [OpenClaw Voice Call Realtime](https://github.com/TristanBrotherton/openclaw-voice-call-realtime) - OpenClaw plugin for inbound and outbound Twilio calls backed by OpenAI Realtime with transcripts call screening calendar and optional Home Assistant actions. 💵
+  - Metadata: `voice-plugin · community · paid · active`; last verified 2026-10-31. [repository](https://github.com/TristanBrotherton/openclaw-voice-call-realtime)
+  - Risk: Twilio and OpenAI credentials enable billable calls live audio DTMF transcripts recordings and optional calendar or Home Assistant changes through a public webhook; enforce caller verification spending limits consent and recording law retention controls and confirmation for consequential actions.
+
 ## Hardware
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
@@ -65,6 +71,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `local-inference-platform · third-party · freemium · active`; last verified 2026-10-17. [repository](https://github.com/OpenCSGs/csglite)
   - Risk: Installers can fetch runtimes install OpenClaw modify provider profiles download large model weights and start local or LAN services; optional private-model and hosted-provider credentials require protection and non-loopback APIs clusters and third-party inference need explicit access and data-flow review.
 
+- [Pollinations for OpenClaw](https://github.com/pollinations/openclaw) - Pollinations-maintained setup that installs a dedicated model-provider key live model catalog and media-generation skill into an existing OpenClaw deployment with rollback support.
+  - Metadata: `model-provider · third-party · freemium · active`; last verified 2026-10-31. [repository](https://github.com/pollinations/openclaw)
+  - Risk: Setup writes provider configuration and a dedicated API key while prompts media and usage are sent to a metered external service and the skill can generate or play files; set key budgets review live model pricing data handling and generated content and use the documented rollback when removing access.
+
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
   - Metadata: `model-provider · third-party · paid · watch`; last verified 2026-09-26. [repository](https://github.com/vultr/model-provider-openclaw)
   - Risk: The plugin executes inside OpenClaw and sends prompts responses and usage to Vultr with a billable API key; scope and rotate the key and review available models service retention and provider pricing before use.
@@ -84,5 +94,9 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [Apple PIM](https://github.com/omarshahine/apple-pim) - macOS OpenClaw plugin for reading and changing Calendar Reminders Contacts and Mail through native Swift tools with per-domain and per-profile access controls.
   - Metadata: `integration · community · free · active`; last verified 2026-08-22. [repository](https://github.com/omarshahine/apple-pim)
   - Risk: macOS permissions can expose calendars reminders contacts and Mail plus optional Full Disk Access; the plugin can create update delete and send data so use restrictive profiles and egress allowlists.
+
+- [Nextcloud for OpenClaw](https://github.com/keithvassallomt/openclaw-nextcloud) - OpenClaw skill that exposes documented Nextcloud notes files calendars tasks contacts and Deck workflows with explicit confirmation tokens for destructive actions.
+  - Metadata: `skill · community · free · active`; last verified 2026-10-31. [repository](https://github.com/keithvassallomt/openclaw-nextcloud)
+  - Risk: The Nextcloud app password permits broad personal-data reads and selected writes including shares moves deletes and calendar or task changes; use a dedicated least-privilege account keep confirmations enabled protect exported results and retain server backups.
 
 [Back to catalog index](index.md)

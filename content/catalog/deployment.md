@@ -49,6 +49,10 @@ Packaging, hosting, isolation, and secure remote operations.
   - Metadata: `agent-control-plane · official · free · active`; last verified 2026-10-03. [repository](https://github.com/openclaw/openclaw-enterprise)
   - Risk: OCE administers cluster workloads service keys model credentials secrets agent configuration and network and storage policy; protect bootstrap outputs pin images enforce tenant isolation and review infrastructure and model costs before production use.
 
+- [OpenClaw Kubernetes Operator](https://github.com/stubbi/openclaw-operator) - Kubernetes operator that reconciles hardened persistent and observable OpenClaw instances from a declarative custom resource with lifecycle and self-configuration controls.
+  - Metadata: `kubernetes-operator · third-party · free · active`; last verified 2026-10-31. [repository](https://github.com/stubbi/openclaw-operator)
+  - Risk: The operator holds Kubernetes RBAC and provider secrets and can create network storage ingress browser backup and self-configuration resources; scope watched namespaces restrict self-configuration allowlists pin installed artifacts protect generated tokens and review cluster and model costs.
+
 ## Packaging
 
 - [Nix OpenClaw](https://github.com/openclaw/nix-openclaw) - Nix packaging and deployment support. 🎖️
