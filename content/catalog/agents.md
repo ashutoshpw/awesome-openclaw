@@ -3,7 +3,17 @@
 
 Agent orchestration, personas, and workspace customization.
 
+## Migration
+
+- [Personal Agent Dossier](https://github.com/AidaShika/personal-agent-dossier) - Open neutral and secret-free handover format with an implemented OpenClaw adapter for exporting and importing agent identity routines memory references and dependency manifests with loss reports.
+  - Metadata: `portability-format · community · free · watch`; last verified 2026-10-31. [repository](https://github.com/AidaShika/personal-agent-dossier)
+  - Risk: Exports can expose sensitive identity prompts routines memory references and dependency metadata while apply mode can write agent files and scheduled routines; inspect the dossier and loss report validate fingerprints use dry-run retain backups and add secrets only through the target platform.
+
 ## Orchestration
+
+- [Builderz Labs Mission Control](https://github.com/builderz-labs/mission-control) - Self-hosted cross-runtime control plane for dispatching reviewing and scheduling agent work while tracking OpenClaw sessions skills memory activity and spend.
+  - Metadata: `agent-control-plane · third-party · free · watch`; last verified 2026-10-31. [repository](https://github.com/builderz-labs/mission-control)
+  - Risk: Mission Control stores agent state transcripts workspace data and API keys and can dispatch tasks install skills create schedules call webhooks write OpenClaw configuration and connect runtime gateways; keep alpha deployments private apply hardened networking restrict workspace integrations and back up the database.
 
 - [Multi-agent documentation](https://docs.openclaw.ai/concepts/multi-agent) - Official guidance for configuring multiple agents. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
