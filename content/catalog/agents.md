@@ -3,13 +3,11 @@
 
 Agent orchestration, personas, and workspace customization.
 
-## Migration
-
-- [Personal Agent Dossier](https://github.com/AidaShika/personal-agent-dossier) - Open neutral and secret-free handover format with an implemented OpenClaw adapter for exporting and importing agent identity routines memory references and dependency manifests with loss reports.
-  - Metadata: `portability-format · community · free · watch`; last verified 2026-10-31. [repository](https://github.com/AidaShika/personal-agent-dossier)
-  - Risk: Exports can expose sensitive identity prompts routines memory references and dependency metadata while apply mode can write agent files and scheduled routines; inspect the dossier and loss report validate fingerprints use dry-run retain backups and add secrets only through the target platform.
-
 ## Orchestration
+
+- [acpx](https://github.com/openclaw/acpx) - Official headless Agent Client Protocol client for persistent sessions one-shot runs permissions machine-readable output and flows across OpenClaw and other coding-agent adapters. 🎖️
+  - Metadata: `agent-protocol-client · official · free · watch`; last verified 2026-11-07. [repository](https://github.com/openclaw/acpx)
+  - Risk: acpx launches and authenticates local agent CLIs can grant filesystem shell and external-service permissions and persists session and flow state; pin compatible adapters keep approval policies restrictive inspect flow actions and protect project and session data.
 
 - [Builderz Labs Mission Control](https://github.com/builderz-labs/mission-control) - Self-hosted cross-runtime control plane for dispatching reviewing and scheduling agent work while tracking OpenClaw sessions skills memory activity and spend.
   - Metadata: `agent-control-plane · third-party · free · watch`; last verified 2026-10-31. [repository](https://github.com/builderz-labs/mission-control)

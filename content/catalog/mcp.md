@@ -23,4 +23,10 @@ Model Context Protocol servers and adapters that can complement agent workflows.
   - Metadata: `mcp-server · third-party · free · active`; last verified 2026-09-04. [repository](https://github.com/worklittle/jobs-mcp)
   - Risk: Remote job search and saved applications share personal profile data and account access; review permissions before saving roles.
 
+## Tooling
+
+- [MCPorter](https://github.com/openclaw/mcporter) - Official runtime and CLI for discovering authenticating invoking and composing HTTP and stdio MCP servers from scripts generated CLIs and agents. 🎖️
+  - Metadata: `mcp-client · official · free · active`; last verified 2026-11-07. [repository](https://github.com/openclaw/mcporter)
+  - Risk: MCPorter stores server configuration and OAuth material launches configured stdio processes and invokes tools that can read local data execute code or change external systems; encrypt its vault restrict imported configurations and review each server and tool before use.
+
 [Back to catalog index](index.md)

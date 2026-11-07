@@ -9,6 +9,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `integration · third-party · freemium · active`; last verified 2026-09-05. [repository](https://github.com/apify/apify-openclaw-plugin)
   - Risk: The API token grants Apify platform access and Actor runs can incur charges execute third-party automation and return untrusted scraped data; restrict tools and review Actor inputs.
 
+- [Peekaboo](https://github.com/openclaw/Peekaboo) - Official macOS CLI menu-bar app and MCP server for screen capture accessibility inspection native UI automation and agent-driven multi-step workflows. 🎖️
+  - Metadata: `desktop-automation · official · free · active`; last verified 2026-11-07. [repository](https://github.com/openclaw/Peekaboo)
+  - Risk: Screen Recording Accessibility and synthetic-input permissions expose desktop content and permit control of local applications while optional model credentials and captured images require protection; grant only required permissions and review automation targets.
+
 - [ZenRows for OpenClaw](https://github.com/ZenRows/openclaw-zenrows) - ZenRows-maintained plugin that connects OpenClaw to hosted web fetching extraction batch and browser-automation tools through the vendor MCP server.
   - Metadata: `mcp-plugin · third-party · freemium · watch`; last verified 2026-10-10. [repository](https://github.com/ZenRows/openclaw-zenrows)
   - Risk: OAuth or API credentials grant access to a metered hosted service and tools can fetch untrusted content drive remote browser sessions and create jobs that consume credits or affect external sites.
@@ -33,9 +37,17 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 ## Communication
 
+- [imsg](https://github.com/openclaw/imsg) - Official macOS CLI and JSON-RPC bridge for reading watching and sending iMessage and SMS through the local Messages database and Messages app automation. 🎖️
+  - Metadata: `messaging-cli · official · free · active`; last verified 2026-11-07. [repository](https://github.com/openclaw/imsg)
+  - Risk: Full Disk Access reveals message history contacts and attachments while Automation permits sends reactions and chat changes; advanced private-API features require disabling SIP and process injection so keep them off unless explicitly justified and isolate any copied Linux database.
+
 - [OpenClaw Voice Call Realtime](https://github.com/TristanBrotherton/openclaw-voice-call-realtime) - OpenClaw plugin for inbound and outbound Twilio calls backed by OpenAI Realtime with transcripts call screening calendar and optional Home Assistant actions. 💵
   - Metadata: `voice-plugin · community · paid · active`; last verified 2026-10-31. [repository](https://github.com/TristanBrotherton/openclaw-voice-call-realtime)
   - Risk: Twilio and OpenAI credentials enable billable calls live audio DTMF transcripts recordings and optional calendar or Home Assistant changes through a public webhook; enforce caller verification spending limits consent and recording law retention controls and confirmation for consequential actions.
+
+- [wacli](https://github.com/openclaw/wacli) - Official scriptable WhatsApp client that pairs as a linked device and provides local SQLite sync search sending chat management multi-account and read-only automation modes. 🎖️
+  - Metadata: `messaging-cli · official · free · active`; last verified 2026-11-07. [repository](https://github.com/openclaw/wacli)
+  - Risk: The linked-device session and local databases contain sensitive contacts chats and media while write commands can send messages change chat state and manage groups; use separate stores owner-only permissions and read-only mode and account for the unaffiliated WhatsApp Web protocol risk.
 
 ## Hardware
 
@@ -94,6 +106,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [Apple PIM](https://github.com/omarshahine/apple-pim) - macOS OpenClaw plugin for reading and changing Calendar Reminders Contacts and Mail through native Swift tools with per-domain and per-profile access controls.
   - Metadata: `integration · community · free · active`; last verified 2026-08-22. [repository](https://github.com/omarshahine/apple-pim)
   - Risk: macOS permissions can expose calendars reminders contacts and Mail plus optional Full Disk Access; the plugin can create update delete and send data so use restrictive profiles and egress allowlists.
+
+- [gog](https://github.com/openclaw/gogcli) - Official scriptable CLI for Google Workspace services with structured output scoped OAuth dry-run allowlists read-only MCP access and explicit write controls. 🎖️
+  - Metadata: `workspace-cli · official · free · active`; last verified 2026-11-07. [repository](https://github.com/openclaw/gogcli)
+  - Risk: OAuth and service-account credentials can expose mail calendars files contacts and administrative data while write commands can send messages change resources or create backups; select minimal scopes use exact allowlists retain no-send or dry-run guards and protect keyring and backup destinations.
 
 - [Nextcloud for OpenClaw](https://github.com/keithvassallomt/openclaw-nextcloud) - OpenClaw skill that exposes documented Nextcloud notes files calendars tasks contacts and Deck workflows with explicit confirmation tokens for destructive actions.
   - Metadata: `skill · community · free · active`; last verified 2026-10-31. [repository](https://github.com/keithvassallomt/openclaw-nextcloud)

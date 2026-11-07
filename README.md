@@ -121,6 +121,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [Apify for OpenClaw](https://github.com/apify/apify-openclaw-plugin) - Vendor-maintained plugin that lets OpenClaw discover and run Apify Actors and collect resulting datasets.
 
+- [Peekaboo](https://github.com/openclaw/Peekaboo) - Official macOS CLI menu-bar app and MCP server for screen capture accessibility inspection native UI automation and agent-driven multi-step workflows. 🎖️
+
 - [ZenRows for OpenClaw](https://github.com/ZenRows/openclaw-zenrows) - ZenRows-maintained plugin that connects OpenClaw to hosted web fetching extraction batch and browser-automation tools through the vendor MCP server.
 
 - [DingTalk OpenClaw Connector](https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector) - Vendor-maintained channel plugin for OpenClaw messaging documents tasks sheets calendars reports and multi-agent routing in DingTalk.
@@ -131,7 +133,11 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [WeChat for OpenClaw](https://github.com/Tencent/openclaw-weixin) - Tencent-maintained channel plugin that connects personal WeChat accounts to OpenClaw through QR authorization with media and multi-account support.
 
+- [imsg](https://github.com/openclaw/imsg) - Official macOS CLI and JSON-RPC bridge for reading watching and sending iMessage and SMS through the local Messages database and Messages app automation. 🎖️
+
 - [OpenClaw Voice Call Realtime](https://github.com/TristanBrotherton/openclaw-voice-call-realtime) - OpenClaw plugin for inbound and outbound Twilio calls backed by OpenAI Realtime with transcripts call screening calendar and optional Home Assistant actions. 💵
+
+- [wacli](https://github.com/openclaw/wacli) - Official scriptable WhatsApp client that pairs as a linked device and provides local SQLite sync search sending chat management multi-account and read-only automation modes. 🎖️
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
 
@@ -157,6 +163,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [Apple PIM](https://github.com/omarshahine/apple-pim) - macOS OpenClaw plugin for reading and changing Calendar Reminders Contacts and Mail through native Swift tools with per-domain and per-profile access controls.
 
+- [gog](https://github.com/openclaw/gogcli) - Official scriptable CLI for Google Workspace services with structured output scoped OAuth dry-run allowlists read-only MCP access and explicit write controls. 🎖️
+
 - [Nextcloud for OpenClaw](https://github.com/keithvassallomt/openclaw-nextcloud) - OpenClaw skill that exposes documented Nextcloud notes files calendars tasks contacts and Deck workflows with explicit confirmation tokens for destructive actions.
 
 ## MCP
@@ -171,11 +179,13 @@ Model Context Protocol servers and adapters that can complement agent workflows.
 
 - [Worklittle Jobs MCP](https://mcp.worklittle.com/) - Search over 4 million jobs with visa salary and distance filters for Claude Cursor ChatGPT OpenClaw and Hermes swipe to apply in your AI app and save roles to a Worklittle account.
 
+- [MCPorter](https://github.com/openclaw/mcporter) - Official runtime and CLI for discovering authenticating invoking and composing HTTP and stdio MCP servers from scripts generated CLIs and agents. 🎖️
+
 ## Agents
 
 Agent orchestration, personas, and workspace customization.
 
-- [Personal Agent Dossier](https://github.com/AidaShika/personal-agent-dossier) - Open neutral and secret-free handover format with an implemented OpenClaw adapter for exporting and importing agent identity routines memory references and dependency manifests with loss reports.
+- [acpx](https://github.com/openclaw/acpx) - Official headless Agent Client Protocol client for persistent sessions one-shot runs permissions machine-readable output and flows across OpenClaw and other coding-agent adapters. 🎖️
 
 - [Builderz Labs Mission Control](https://github.com/builderz-labs/mission-control) - Self-hosted cross-runtime control plane for dispatching reviewing and scheduling agent work while tracking OpenClaw sessions skills memory activity and spend.
 
