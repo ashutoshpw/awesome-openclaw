@@ -46,6 +46,14 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
   - Metadata: `compatibility-dashboard · official · free · active`; last verified 2026-09-19. [repository](https://github.com/openclaw/crabpot)
   - Risk: Materializing fixtures fetches and executes third-party packages and some live probes need host state or credentials; use the published static reports for review and isolate local runtime probes and fixture updates.
 
+- [gitcrawl](https://github.com/openclaw/gitcrawl) - Official local-first GitHub issue and pull-request crawler with SQLite search clustering embeddings terminal browsing and portable or cloud archive modes. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-14. [repository](https://github.com/openclaw/gitcrawl)
+  - Risk: GitHub tokens can expose private repository discussions and optional model credentials send selected content for summaries or embeddings; protect local archives scope tokens and verify live state before acting.
+
+- [Octopool](https://github.com/openclaw/octopool) - Official shared GitHub read relay and Cloudflare cache that pools organization-authenticated identities for agents and command-line clients. 🎖️
+  - Metadata: `github-relay · official · free · active`; last verified 2026-11-14. [repository](https://github.com/openclaw/octopool)
+  - Risk: The service holds GitHub App credentials and cached private API responses while deployment can modify Cloudflare resources; restrict repository installation scope protect service tokens configure cache policy and keep write actions outside the relay.
+
 ## Extensions
 
 - [Plugins](https://docs.openclaw.ai/plugins) - Extend OpenClaw with installable plugins and plugin-provided capabilities. 🎖️

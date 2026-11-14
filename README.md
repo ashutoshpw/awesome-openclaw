@@ -69,6 +69,10 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
 - [Crabpot](https://github.com/openclaw/crabpot) - Official compatibility dashboard and test harness that pins community plugins and probes them against current OpenClaw contracts before API drift reaches plugin authors. 🎖️
 
+- [gitcrawl](https://github.com/openclaw/gitcrawl) - Official local-first GitHub issue and pull-request crawler with SQLite search clustering embeddings terminal browsing and portable or cloud archive modes. 🎖️
+
+- [Octopool](https://github.com/openclaw/octopool) - Official shared GitHub read relay and Cloudflare cache that pools organization-authenticated identities for agents and command-line clients. 🎖️
+
 - [Plugins](https://docs.openclaw.ai/plugins) - Extend OpenClaw with installable plugins and plugin-provided capabilities. 🎖️
 
 - [OpenClaw Manager (OCM)](https://github.com/openclaw/ocm) - Official local control plane for creating isolating upgrading snapshotting and supervising multiple OpenClaw environments and their runtimes. 🎖️
@@ -133,6 +137,14 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [OpenClaw Voice Call Realtime](https://github.com/TristanBrotherton/openclaw-voice-call-realtime) - OpenClaw plugin for inbound and outbound Twilio calls backed by OpenAI Realtime with transcripts call screening calendar and optional Home Assistant actions. 💵
 
+- [discrawl](https://github.com/openclaw/discrawl) - Official local-first Discord crawler that archives guild history and recoverable desktop-cache messages in SQLite for offline search SQL and terminal browsing. 🎖️
+
+- [imsgcrawl](https://github.com/openclaw/imsgcrawl) - Official read-only Apple Messages crawler that snapshots the local database into a searchable archive with bounded chat message and contact-export commands. 🎖️
+
+- [slacrawl](https://github.com/openclaw/slacrawl) - Official local-first Slack crawler that mirrors API exports or desktop-cache data into SQLite for search reporting read-only SQL and controlled archive sharing. 🎖️
+
+- [wacrawl](https://github.com/openclaw/wacrawl) - Official read-only WhatsApp Desktop archive tool for importing searching slicing and backing up local message history with encrypted receipts. 🎖️
+
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
 
 - [Atrium](https://github.com/lacneu/atrium) - Self-hostable multi-user web chat for OpenClaw and Hermes with per-user agent routing streaming files voice and an observability surface.
@@ -150,6 +162,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [Pollinations for OpenClaw](https://github.com/pollinations/openclaw) - Pollinations-maintained setup that installs a dedicated model-provider key live model catalog and media-generation skill into an existing OpenClaw deployment with rollback support.
 
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
+
+- [photoscrawl](https://github.com/openclaw/photoscrawl) - Official macOS crawler that builds a local searchable evidence-backed SQLite archive from an Apple Photos library for agent context. 🎖️
 
 - [OpenClaw Kitchen Sink](https://github.com/openclaw/kitchen-sink) - Official credential-free plugin fixture and readable boilerplate covering the public OpenClaw plugin API surface. 🎖️
 
@@ -174,8 +188,6 @@ Model Context Protocol servers and adapters that can complement agent workflows.
 ## Agents
 
 Agent orchestration, personas, and workspace customization.
-
-- [Personal Agent Dossier](https://github.com/AidaShika/personal-agent-dossier) - Open neutral and secret-free handover format with an implemented OpenClaw adapter for exporting and importing agent identity routines memory references and dependency manifests with loss reports.
 
 - [Builderz Labs Mission Control](https://github.com/builderz-labs/mission-control) - Self-hosted cross-runtime control plane for dispatching reviewing and scheduling agent work while tracking OpenClaw sessions skills memory activity and spend.
 
@@ -262,6 +274,8 @@ Memory, session, context, and observability resources.
 ## Security
 
 Security policy, hardening, disclosure, and trust resources.
+
+- [OpenClaw CVE Tracker](https://github.com/jgamblin/OpenClawCVEs) - Automated public tracker that reconciles OpenClaw records from CVE List V5 GitHub advisories and the GitHub Advisory Database into inspectable datasets and dashboards.
 
 - [SpiceClaw](https://github.com/authzed/spiceclaw) - Proof-of-concept OpenClaw plugin using SpiceDB for explicit fine-grained tool grants and time-limited human-approved elevation.
 

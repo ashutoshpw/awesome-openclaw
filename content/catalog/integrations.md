@@ -37,6 +37,24 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `voice-plugin · community · paid · active`; last verified 2026-10-31. [repository](https://github.com/TristanBrotherton/openclaw-voice-call-realtime)
   - Risk: Twilio and OpenAI credentials enable billable calls live audio DTMF transcripts recordings and optional calendar or Home Assistant changes through a public webhook; enforce caller verification spending limits consent and recording law retention controls and confirmation for consequential actions.
 
+## Communication Archives
+
+- [discrawl](https://github.com/openclaw/discrawl) - Official local-first Discord crawler that archives guild history and recoverable desktop-cache messages in SQLite for offline search SQL and terminal browsing. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-14. [repository](https://github.com/openclaw/discrawl)
+  - Risk: Discord bot credentials can read permitted guild history and archives may contain private messages member data and media; isolate the database review publication filters and keep tokens out of snapshots.
+
+- [imsgcrawl](https://github.com/openclaw/imsgcrawl) - Official read-only Apple Messages crawler that snapshots the local database into a searchable archive with bounded chat message and contact-export commands. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-14. [repository](https://github.com/openclaw/imsgcrawl)
+  - Risk: Full Disk Access exposes private names addresses phone numbers message text attachments and local paths; keep source snapshots archives command output and exported contacts local unless every disclosure is explicitly approved.
+
+- [slacrawl](https://github.com/openclaw/slacrawl) - Official local-first Slack crawler that mirrors API exports or desktop-cache data into SQLite for search reporting read-only SQL and controlled archive sharing. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-14. [repository](https://github.com/openclaw/slacrawl)
+  - Risk: Slack tokens can expose workspace channels threads DMs users and media while published archives can disclose retained content; separate visibility boundaries use least-privilege tokens and inspect snapshots before sharing.
+
+- [wacrawl](https://github.com/openclaw/wacrawl) - Official read-only WhatsApp Desktop archive tool for importing searching slicing and backing up local message history with encrypted receipts. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-14. [repository](https://github.com/openclaw/wacrawl)
+  - Risk: Local WhatsApp databases archives media and receipt keys contain sensitive conversations and identities while backup or git publication can export them; use read-only source access inspect destinations and protect encryption keys and snapshots.
+
 ## Hardware
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
@@ -78,6 +96,12 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
   - Metadata: `model-provider · third-party · paid · watch`; last verified 2026-09-26. [repository](https://github.com/vultr/model-provider-openclaw)
   - Risk: The plugin executes inside OpenClaw and sends prompts responses and usage to Vultr with a billable API key; scope and rotate the key and review available models service retention and provider pricing before use.
+
+## Personal Data
+
+- [photoscrawl](https://github.com/openclaw/photoscrawl) - Official macOS crawler that builds a local searchable evidence-backed SQLite archive from an Apple Photos library for agent context. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-14. [repository](https://github.com/openclaw/photoscrawl)
+  - Risk: Photos access exposes private media timestamps locations faces OCR and derived metadata while optional remote model or embedding providers receive selected content; grant read-only access keep archives private and review every cloud data flow.
 
 ## Plugins
 

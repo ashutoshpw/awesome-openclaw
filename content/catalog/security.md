@@ -3,6 +3,11 @@
 
 Security policy, hardening, disclosure, and trust resources.
 
+## Advisories
+
+- [OpenClaw CVE Tracker](https://github.com/jgamblin/OpenClawCVEs) - Automated public tracker that reconciles OpenClaw records from CVE List V5 GitHub advisories and the GitHub Advisory Database into inspectable datasets and dashboards.
+  - Metadata: `vulnerability-tracker · community · free · active`; last verified 2026-11-14. [repository](https://github.com/jgamblin/OpenClawCVEs)
+
 ## Authorization
 
 - [SpiceClaw](https://github.com/authzed/spiceclaw) - Proof-of-concept OpenClaw plugin using SpiceDB for explicit fine-grained tool grants and time-limited human-approved elevation.
