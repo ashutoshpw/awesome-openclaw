@@ -33,11 +33,25 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 ## Communication
 
+- [ClickClack](https://github.com/openclaw/clickclack) - Official self-hostable team chat for people bots and OpenClaw agents with web desktop CLI SDK and realtime API surfaces. 🎖️
+  - Metadata: `companion-platform · official · free · active`; last verified 2026-11-21. [repository](https://github.com/openclaw/clickclack)
+  - Risk: ClickClack stores messages files identities bot tokens and agent activity and can send chat events webhooks and push notifications while optional hosted Postgres R2 and OpenClaw ID paths move data outside the host; restrict scopes harden public deployments and protect backups.
+
 - [OpenClaw Voice Call Realtime](https://github.com/TristanBrotherton/openclaw-voice-call-realtime) - OpenClaw plugin for inbound and outbound Twilio calls backed by OpenAI Realtime with transcripts call screening calendar and optional Home Assistant actions. 💵
   - Metadata: `voice-plugin · community · paid · active`; last verified 2026-10-31. [repository](https://github.com/TristanBrotherton/openclaw-voice-call-realtime)
   - Risk: Twilio and OpenAI credentials enable billable calls live audio DTMF transcripts recordings and optional calendar or Home Assistant changes through a public webhook; enforce caller verification spending limits consent and recording law retention controls and confirmation for consequential actions.
 
+## Communication Archives
+
+- [telecrawl](https://github.com/openclaw/telecrawl) - Official local-first Telegram Desktop archive CLI with offline search import media recovery and encrypted Git backup workflows. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-21. [repository](https://github.com/openclaw/telecrawl)
+  - Risk: Telegram desktop state messages contacts phone numbers media and encrypted backup identities are highly sensitive while restore can replace the archive and configured remotes can upload it; inspect destinations keep age keys separate and use read-only source mounts.
+
 ## Hardware
+
+- [Clawgo](https://github.com/openclaw/clawgo) - Official minimal Linux and Raspberry Pi node client for OpenClaw Gateway pairing transcript events chat subscriptions local speech and optional channel delivery. 🎖️
+  - Metadata: `companion-device · official · free · watch`; last verified 2026-11-21. [repository](https://github.com/openclaw/clawgo)
+  - Risk: The node token grants Gateway access and optional speech command and delivery paths can send transcripts trigger agent work execute configured local TTS wrappers and post to external channels; isolate the service protect state files and restrict routing and delivery targets.
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
   - Metadata: `companion-device · official · free · active`; last verified 2026-08-22. [repository](https://github.com/openclaw/esp-openclaw-node)
@@ -56,6 +70,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [ClawX](https://github.com/ValueCell-ai/ClawX) - Cross-platform Electron desktop interface that bundles OpenClaw with guided provider setup chat agent channel schedule and skill management.
   - Metadata: `companion-app · community · freemium · active`; last verified 2026-09-05. [repository](https://github.com/ValueCell-ai/ClawX)
   - Risk: The desktop app stores provider credentials manages OpenClaw configuration and Gateway processes installs skills and plugins runs schedules and can trigger external channel actions; verify release provenance and review enabled capabilities.
+
+- [CrawlBar](https://github.com/openclaw/crawlbar) - Official native macOS menu bar app and CLI for discovering monitoring configuring and running supported OpenClaw local-first crawlers. 🎖️
+  - Metadata: `companion-app · official · free · active`; last verified 2026-11-21. [repository](https://github.com/openclaw/crawlbar)
+  - Risk: CrawlBar executes crawler and optional SSH commands writes configuration and logs and can trigger archive refresh publish restore or cloud-upload actions using each crawler's permissions; review manifests protect remote hosts and inspect redacted logs and publish targets.
 
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
   - Metadata: `integration · community · free · active`; last verified 2026-08-15. [repository](https://github.com/Eliav2/openclaw-openwebui-integration)
@@ -78,6 +96,16 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
   - Metadata: `model-provider · third-party · paid · watch`; last verified 2026-09-26. [repository](https://github.com/vultr/model-provider-openclaw)
   - Risk: The plugin executes inside OpenClaw and sends prompts responses and usage to Vultr with a billable API key; scope and rotate the key and review available models service retention and provider pricing before use.
+
+## Personal Data
+
+- [graincrawl](https://github.com/openclaw/graincrawl) - Official local-first Granola crawler that archives notes transcripts panels people and workspaces into searchable SQLite with Markdown and portable snapshots. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-21. [repository](https://github.com/openclaw/graincrawl)
+  - Risk: Granola desktop caches API credentials notes transcripts people and retained payloads contain sensitive meeting data; keep the private archive protected inject API keys at runtime and verify snapshot recipients even though source access is read-only.
+
+- [notcrawl](https://github.com/openclaw/notcrawl) - Official local-first Notion crawler that mirrors desktop API or targeted MCP data into searchable SQLite and normalized Markdown archives. 🎖️
+  - Metadata: `data-crawler · official · free · active`; last verified 2026-11-21. [repository](https://github.com/openclaw/notcrawl)
+  - Risk: Notion tokens desktop caches and MCP credentials can expose private pages comments databases users and signed asset URLs while publish or restore can export or replace archive data; use read-only sources inspect snapshots and keep credentials and archives private.
 
 ## Plugins
 

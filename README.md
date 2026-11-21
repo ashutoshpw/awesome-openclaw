@@ -63,6 +63,10 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
 - [Configuration](https://docs.openclaw.ai/gateway/configuration) - Configure models channels tools agents and Gateway behavior. 🎖️
 
+- [ClawPatch](https://github.com/openclaw/clawpatch) - Official CLI that maps repositories into semantic feature slices and runs resumable agent-assisted review repair validation and pull-request workflows. 🎖️
+
+- [ClawPDF](https://github.com/openclaw/clawpdf) - Official zero-runtime-dependency PDFium WebAssembly library and CLI for extracting text and rendering PDF pages for Node agents and browser bundles. 🎖️
+
 - [ClawSweeper](https://github.com/openclaw/clawsweeper) - Official self-hostable maintenance bot for reviewing OpenClaw issues and pull requests and routing guarded repair close and automerge workflows. 🎖️
 
 - [Crabbox](https://github.com/openclaw/crabbox) - Official CLI and optional coordinator for syncing an OpenClaw working tree to local cloud or delegated runners and executing auditable development workflows. 🎖️
@@ -131,7 +135,13 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [WeChat for OpenClaw](https://github.com/Tencent/openclaw-weixin) - Tencent-maintained channel plugin that connects personal WeChat accounts to OpenClaw through QR authorization with media and multi-account support.
 
+- [ClickClack](https://github.com/openclaw/clickclack) - Official self-hostable team chat for people bots and OpenClaw agents with web desktop CLI SDK and realtime API surfaces. 🎖️
+
 - [OpenClaw Voice Call Realtime](https://github.com/TristanBrotherton/openclaw-voice-call-realtime) - OpenClaw plugin for inbound and outbound Twilio calls backed by OpenAI Realtime with transcripts call screening calendar and optional Home Assistant actions. 💵
+
+- [telecrawl](https://github.com/openclaw/telecrawl) - Official local-first Telegram Desktop archive CLI with offline search import media recovery and encrypted Git backup workflows. 🎖️
+
+- [Clawgo](https://github.com/openclaw/clawgo) - Official minimal Linux and Raspberry Pi node client for OpenClaw Gateway pairing transcript events chat subscriptions local speech and optional channel delivery. 🎖️
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
 
@@ -140,6 +150,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [Clawdi](https://github.com/Clawdi-AI/clawdi) - Open-source control plane for hosted or connected OpenClaw agents with sessions memory projects skills vaults channels and model access.
 
 - [ClawX](https://github.com/ValueCell-ai/ClawX) - Cross-platform Electron desktop interface that bundles OpenClaw with guided provider setup chat agent channel schedule and skill management.
+
+- [CrawlBar](https://github.com/openclaw/crawlbar) - Official native macOS menu bar app and CLI for discovering monitoring configuring and running supported OpenClaw local-first crawlers. 🎖️
 
 - [OpenClaw in Open WebUI](https://github.com/Eliav2/openclaw-openwebui-integration) - Open WebUI functions that connect to an OpenClaw Gateway over its native WebSocket protocol for streaming tool cards sessions subagent status prompts and media.
 
@@ -150,6 +162,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 - [Pollinations for OpenClaw](https://github.com/pollinations/openclaw) - Pollinations-maintained setup that installs a dedicated model-provider key live model catalog and media-generation skill into an existing OpenClaw deployment with rollback support.
 
 - [Vultr Model Provider for OpenClaw](https://github.com/vultr/model-provider-openclaw) - Vultr-maintained provider plugin that adds live Vultr Serverless Inference model discovery and model selection to OpenClaw. 💵
+
+- [graincrawl](https://github.com/openclaw/graincrawl) - Official local-first Granola crawler that archives notes transcripts panels people and workspaces into searchable SQLite with Markdown and portable snapshots. 🎖️
+
+- [notcrawl](https://github.com/openclaw/notcrawl) - Official local-first Notion crawler that mirrors desktop API or targeted MCP data into searchable SQLite and normalized Markdown archives. 🎖️
 
 - [OpenClaw Kitchen Sink](https://github.com/openclaw/kitchen-sink) - Official credential-free plugin fixture and readable boilerplate covering the public OpenClaw plugin API surface. 🎖️
 
@@ -174,8 +190,6 @@ Model Context Protocol servers and adapters that can complement agent workflows.
 ## Agents
 
 Agent orchestration, personas, and workspace customization.
-
-- [Personal Agent Dossier](https://github.com/AidaShika/personal-agent-dossier) - Open neutral and secret-free handover format with an implemented OpenClaw adapter for exporting and importing agent identity routines memory references and dependency manifests with loss reports.
 
 - [Builderz Labs Mission Control](https://github.com/builderz-labs/mission-control) - Self-hosted cross-runtime control plane for dispatching reviewing and scheduling agent work while tracking OpenClaw sessions skills memory activity and spend.
 

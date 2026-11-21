@@ -34,6 +34,14 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
 ## Development
 
+- [ClawPatch](https://github.com/openclaw/clawpatch) - Official CLI that maps repositories into semantic feature slices and runs resumable agent-assisted review repair validation and pull-request workflows. 🎖️
+  - Metadata: `developer-tool · official · free · active`; last verified 2026-11-21. [repository](https://github.com/openclaw/clawpatch)
+  - Risk: Configured coding-agent providers can read sensitive source execute validation commands modify files and with the separate open-pr command commit push and open pull requests; use trusted repositories read-only review sandboxes scoped credentials and explicit write review.
+
+- [ClawPDF](https://github.com/openclaw/clawpdf) - Official zero-runtime-dependency PDFium WebAssembly library and CLI for extracting text and rendering PDF pages for Node agents and browser bundles. 🎖️
+  - Metadata: `developer-tool · official · free · active`; last verified 2026-11-21. [repository](https://github.com/openclaw/clawpdf)
+  - Risk: Untrusted local or remote PDFs are parsed by bundled PDFium WebAssembly and HTTP downloads have no size cap unless explicitly configured; set byte image and page budgets isolate hostile documents avoid command-line passwords and treat extracted content as untrusted.
+
 - [ClawSweeper](https://github.com/openclaw/clawsweeper) - Official self-hostable maintenance bot for reviewing OpenClaw issues and pull requests and routing guarded repair close and automerge workflows. 🎖️
   - Metadata: `repository-maintenance · official · free · active`; last verified 2026-09-26. [repository](https://github.com/openclaw/clawsweeper)
   - Risk: Operators grant repository model and optional Cloudflare credentials and the service can publish reviews create repair branches close items and merge eligible pull requests; restrict target profiles preserve proposal and apply gates and test policies before enabling writes.
