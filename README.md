@@ -55,6 +55,8 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
 - [Lobster](https://github.com/openclaw/lobster) - Official JSON-first workflow shell and runtime for composing typed OpenClaw tool agent and approval steps into resumable pipelines. 🎖️
 
+- [OpenClaw RTT](https://github.com/openclaw/openclaw-rtt) - Official continuously updated dashboard of channel Gateway RPC Control UI latency memory and release coverage across OpenClaw versions. 🎖️
+
 - [Channels](https://docs.openclaw.ai/channels) - Connect OpenClaw to messaging services including WhatsApp Telegram Slack Discord Signal and iMessage. 🎖️
 
 - [CLI reference](https://docs.openclaw.ai/cli) - Command-line reference for setup diagnostics pairing skills and operations. 🎖️
@@ -75,11 +77,13 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 
 - [Model providers](https://docs.openclaw.ai/concepts/model-providers) - Configure hosted and local model providers for OpenClaw. 🎖️
 
-- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Self-hosted offline monitoring dashboard for OpenClaw agents charting token usage per model session activity and 7-day trends.
-
 - [Getting started](https://docs.openclaw.ai/start/getting-started) - Recommended path from installation to a first working assistant. 🎖️
 
 - [Installation](https://docs.openclaw.ai/install) - Official installer package Docker Nix and platform deployment paths. 🎖️
+
+- [Crabline](https://github.com/openclaw/crabline) - Official CLI with deterministic provider-shaped messaging mocks for testing OpenClaw channel plugins and round trips without live platform credentials. 🎖️
+
+- [Kova](https://github.com/openclaw/Kova) - Official runtime validation lab that runs release-shaped OpenClaw install upgrade gateway agent plugin TUI MCP browser and soak scenarios with structured evidence. 🎖️
 
 ## Directories
 
@@ -135,6 +139,8 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
 
 - [ESP OpenClaw Node](https://github.com/openclaw/esp-openclaw-node) - Official ESP-IDF component and examples for running ESP32 boards as paired OpenClaw Nodes with reconnect command dispatch provisioning and room-node UI support. 🎖️
 
+- [Phone Harness](https://github.com/phone-harness/phone-harness/tree/main/integrations/openclaw) - OpenClaw plugin that lets approved model-written Python drive attached or cloud iPhone and Android devices through one phone_exec tool.
+
 - [Atrium](https://github.com/lacneu/atrium) - Self-hostable multi-user web chat for OpenClaw and Hermes with per-user agent routing streaming files voice and an observability surface.
 
 - [Clawdi](https://github.com/Clawdi-AI/clawdi) - Open-source control plane for hosted or connected OpenClaw agents with sessions memory projects skills vaults channels and model access.
@@ -175,8 +181,6 @@ Model Context Protocol servers and adapters that can complement agent workflows.
 
 Agent orchestration, personas, and workspace customization.
 
-- [Personal Agent Dossier](https://github.com/AidaShika/personal-agent-dossier) - Open neutral and secret-free handover format with an implemented OpenClaw adapter for exporting and importing agent identity routines memory references and dependency manifests with loss reports.
-
 - [Builderz Labs Mission Control](https://github.com/builderz-labs/mission-control) - Self-hosted cross-runtime control plane for dispatching reviewing and scheduling agent work while tracking OpenClaw sessions skills memory activity and spend.
 
 - [Multi-agent documentation](https://docs.openclaw.ai/concepts/multi-agent) - Official guidance for configuring multiple agents. 🎖️
@@ -192,6 +196,8 @@ Runnable examples and practical patterns for applying OpenClaw.
 - [n8n workflow orchestration](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/n8n-workflow-orchestration.md) - Delegate integration work through controlled n8n webhooks.
 
 - [Multi-agent content factory](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md) - Coordinate research writing and publishing agents.
+
+- [OpenClaw Cookbook](https://github.com/openclaw/cookbook) - Official runnable recipes and starter apps for building OpenClaw SDK tools automations CLIs web workbenches and operations dashboards. 🎖️
 
 - [OpenClaw examples catalog](https://github.com/OthmaneBlial/awesome-openclaw-examples/blob/main/examples/catalog.md) - Catalog of tested examples across engineering research content finance and operations.
 

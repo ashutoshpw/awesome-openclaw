@@ -15,6 +15,12 @@ Runnable examples and practical patterns for applying OpenClaw.
   - Metadata: `example · community · free · active`; last verified 2026-08-12. [repository](https://github.com/hesamsheikh/awesome-openclaw-usecases)
   - Risk: Publishing agents can create external side effects.
 
+## Development
+
+- [OpenClaw Cookbook](https://github.com/openclaw/cookbook) - Official runnable recipes and starter apps for building OpenClaw SDK tools automations CLIs web workbenches and operations dashboards. 🎖️
+  - Metadata: `example-collection · official · free · watch`; last verified 2026-11-28. [repository](https://github.com/openclaw/cookbook)
+  - Risk: Gateway-connected examples can send prompts start cancel and reuse runs under operator credentials while copied apps execute SDK code; protect tokens isolate test transports and review live-agent tool permissions.
+
 ## Examples
 
 - [OpenClaw examples catalog](https://github.com/OthmaneBlial/awesome-openclaw-examples/blob/main/examples/catalog.md) - Catalog of tested examples across engineering research content finance and operations.
