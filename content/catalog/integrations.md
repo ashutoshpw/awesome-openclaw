@@ -43,6 +43,10 @@ Plugins, channels, and integrations that connect OpenClaw to other systems.
   - Metadata: `companion-device · official · free · active`; last verified 2026-08-22. [repository](https://github.com/openclaw/esp-openclaw-node)
   - Risk: Pairing credentials and Wi-Fi state are stored on the device; node commands can affect attached hardware and room-node file and media surfaces.
 
+- [Phone Harness](https://github.com/phone-harness/phone-harness/tree/main/integrations/openclaw) - OpenClaw plugin that lets approved model-written Python drive attached or cloud iPhone and Android devices through one phone_exec tool.
+  - Metadata: `hardware-plugin · third-party · freemium · active`; last verified 2026-11-28. [repository](https://github.com/phone-harness/phone-harness)
+  - Risk: The plugin runs model-written Python outside the OpenClaw sandbox and can read tap type buy send or delete through authenticated phone apps; keep per-call approvals enabled deny shell access use a dedicated device and review telemetry cloud data and billing.
+
 ## Interfaces
 
 - [Atrium](https://github.com/lacneu/atrium) - Self-hostable multi-user web chat for OpenClaw and Hermes with per-user agent routing streaming files voice and an observability surface.

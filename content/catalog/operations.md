@@ -9,6 +9,11 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
   - Metadata: `workflow-engine · official · free · active`; last verified 2026-09-19. [repository](https://github.com/openclaw/lobster)
   - Risk: Workflows can invoke agents tools shell commands and external systems under a Gateway credential; review definitions and approval gates and set cost and output limits before unattended runs.
 
+## Benchmarks
+
+- [OpenClaw RTT](https://github.com/openclaw/openclaw-rtt) - Official continuously updated dashboard of channel Gateway RPC Control UI latency memory and release coverage across OpenClaw versions. 🎖️
+  - Metadata: `performance-dashboard · official · free · active`; last verified 2026-11-28. [repository](https://github.com/openclaw/openclaw-rtt)
+
 ## Channels
 
 - [Channels](https://docs.openclaw.ai/channels) - Connect OpenClaw to messaging services including WhatsApp Telegram Slack Discord Signal and iMessage. 🎖️
@@ -64,11 +69,6 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
   - Metadata: `documentation · official · unknown · active`; last verified 2026-08-12.
   - Risk: Provider credentials and usage costs require explicit review.
 
-## Monitoring
-
-- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Self-hosted offline monitoring dashboard for OpenClaw agents charting token usage per model session activity and 7-day trends.
-  - Metadata: `monitoring-dashboard · community · free · watch`; last verified 2026-10-13. [repository](https://github.com/flik2002/openclaw-monitor)
-
 ## Onboarding
 
 - [Getting started](https://docs.openclaw.ai/start/getting-started) - Recommended path from installation to a first working assistant. 🎖️
@@ -78,5 +78,15 @@ Documentation for installing, configuring, and operating an OpenClaw Gateway.
 - [Installation](https://docs.openclaw.ai/install) - Official installer package Docker Nix and platform deployment paths. 🎖️
   - Metadata: `documentation · official · free · active`; last verified 2026-08-12.
   - Risk: Installer commands change the local environment.
+
+## Testing
+
+- [Crabline](https://github.com/openclaw/crabline) - Official CLI with deterministic provider-shaped messaging mocks for testing OpenClaw channel plugins and round trips without live platform credentials. 🎖️
+  - Metadata: `qa-tool · official · free · active`; last verified 2026-11-28. [repository](https://github.com/openclaw/crabline)
+  - Risk: Fixture commands and script bridges execute local code and mocks cannot prove live provider behavior; bind servers to loopback protect optional webhook secrets and keep release lanes on real providers.
+
+- [Kova](https://github.com/openclaw/Kova) - Official runtime validation lab that runs release-shaped OpenClaw install upgrade gateway agent plugin TUI MCP browser and soak scenarios with structured evidence. 🎖️
+  - Metadata: `developer-tool · official · free · active`; last verified 2026-11-28. [repository](https://github.com/openclaw/Kova)
+  - Risk: Real runs provision disposable environments execute OpenClaw and external tooling and can use live provider credentials; inspect plans keep durable environments read-only control exhaustive runs and confirm cleanup or retained failure labs.
 
 [Back to catalog index](index.md)
